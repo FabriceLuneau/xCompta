@@ -1,0 +1,19 @@
+app	<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<compta.raisonsociale>"raisonsociale"</compta.raisonsociale>
+	<compta.filename>"filename"</compta.filename>
+	<compta.host>127.0.0.1</compta.host>
+	
+	<hibernate.dialect>org.hibernate.dialect.MySQLDialect</hibernate.dialect>
+	<hibernate.connection.driver_class>com.mysql.jdbc.Driver</hibernate.connection.driver_class>
+	<hibernate.connection.url>
+	jdbc:mysql://localhost:3306/baba?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+</hibernate.connection.url>
+	<hibernate.connection.username>root</hibernate.connection.username>
+	<hibernate.connection.password></hibernate.connection.password>
+	<hibernate.connection.autocommit>true</hibernate.connection.autocommit>
+	<hibernate.connection.pool_size>10</hibernate.connection.pool_size>
+	<hibernate.connection.show_sql>true</hibernate.connection.show_sql>
+	<hibernate.current_session_context_class>thread</hibernate.current_session_context_class>
+</configuration>

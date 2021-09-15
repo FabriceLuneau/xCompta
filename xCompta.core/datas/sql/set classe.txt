@@ -1,0 +1,11 @@
+-- Initialise le numéro de classe pour chaque comptes, d'après le premier numéro de compte
+
+update compte set classe_numero = '1' where numero like '1%';
+update compte set classe_numero = '2' where numero like '2%';
+update compte set classe_numero = '3' where numero like '3%';
+update compte set classe_numero = 4' where numero like '4%';
+update compte set classe_numero = '5' where numero like '5%';
+update compte set classe_numero = '6' where numero like '6%';
+update compte set classe_numero = '7' where numero like '7%';
+update compte set classe_numero = '8' where numero like '8%';
+update compte set classe_numero = '9' where numero like '9%';

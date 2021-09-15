@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ArrayList>
+<classe numero="1" libelle="Comptes de capitaux" />
+	<classe numero="2" libelle="Comptes d'immobilisations"/>
+	<classe numero="3" libelle="Comptes de stocks et en-cours"/>
+	<classe numero="4" libelle="Comptes de tiers"/>
+<classe numero="5" libelle="Comptes financiers"/>
+	<classe numero="6" libelle="Comptes de charges"/>
+	<classe numero="7" libelle="Comptes de produits"/>
+	<classe numero="8" libelle="Comptes spéciaux"/>
+	<classe numero="9" libelle="Comptes analytiques d'exploitation"/>
+</ArrayList>

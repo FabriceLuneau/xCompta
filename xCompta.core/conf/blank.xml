@@ -1,0 +1,6 @@
+name=
+provider=MySql**PostGres
+url =jdbc:mysql://localhost:3306/baba?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+user=root
+password=
+debug=true

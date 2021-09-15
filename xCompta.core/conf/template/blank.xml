@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<hibernate.dialect>
+	</hibernate.dialect>
+	
+	<hibernate.connection.driver_class>
+	</hibernate.connection.driver_class>
+	
+	<hibernate.connection.url>
+	</hibernate.connection.url>
+	
+	<hibernate.connection.ursername>
+	</hibernate.connection.ursername>
+	
+	<hibernate.connection.password>
+	</hibernate.connection.password>
+	
+	<hibernate.connection.autocommit>
+	</hibernate.connection.autocommit>
+	
+	<hibernate.connection.pool_size>
+	</hibernate.connection.pool_size>
+	
+	<hibernate.connection.show_sql>
+	</hibernate.connection.show_sql>
+	
+	<hibernate.current_session_context_class>
+	</hibernate.current_session_context_class>
+</configuration>

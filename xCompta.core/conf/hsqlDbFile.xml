@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<compta.raisonsociale>"raisonsociale"</compta.raisonsociale>
+	<compta.filename>"filename"</compta.filename>
+
+	<hibernate.dialect>org.hibernate.dialect.HSQLDialect</hibernate.dialect>
+	<hibernate.connection.driver_class>
+	org.hsqldb.jdbcDriver
+	</hibernate.connection.driver_class>
+	<hibernate.connection.url>jdbc:hsqldb:file:local/"filename".hsql</hibernate.connection.url>
+	<hibernate.connection.username>sa</hibernate.connection.username>
+	<hibernate.connection.password></hibernate.connection.password>
+	<hibernate.connection.autocommit>true</hibernate.connection.autocommit>
+	<hibernate.connection.pool_size>10</hibernate.connection.pool_size>
+	<hibernate.connection.show_sql>true</hibernate.connection.show_sql>
+	<hibernate.current_session_context_class>thread</hibernate.current_session_context_class>
+</configuration>

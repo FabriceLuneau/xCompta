@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<compta.raisonsociale>Guinot</compta.raisonsociale>
+	<compta.filename>Guinot</compta.filename>
+	<compta.host>42.11.11.105</compta.host>
+	
+	<hibernate.dialect>org.hibernate.dialect.Oracle10gDialect</hibernate.dialect>
+	<hibernate.connection.driver_class>oracle.jdbc.driver.OracleDriver</hibernate.connection.driver_class>
+	<hibernate.connection.url>jdbc:oracle:thin:@42.11.11.105:1521:ORADADB</hibernate.connection.url>
+	
+	<hibernate.connection.ursername>fabrice</hibernate.connection.ursername>
+	<hibernate.connection.password>fabrice</hibernate.connection.password>
+	
+	<hibernate.connection.autocommit>true</hibernate.connection.autocommit>
+	<hibernate.connection.pool_size>10</hibernate.connection.pool_size>
+	
+	<hibernate.connection.show_sql>true</hibernate.connection.show_sql>
+	<hibernate.current_session_context_class>thread</hibernate.current_session_context_class>
+	<hibernate.hbm2ddl.auto>create-drop</hibernate.hbm2ddl.auto>
+</configuration>
