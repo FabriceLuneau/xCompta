@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comptes> 
+  <compte>
+    <numero>101</numero>
+    <libelle>Capital</libelle>
+  </compte>
+  <compte>
+    <numero>1011</numero>
+    <libelle>Capital souscrit - non appelé</libelle>
+  </compte>
+  <compte>
+    <numero>1012</numero>
+    <libelle>Capital souscrit - appelé, non versé</libelle>
+  </compte>
+  <compte>
+    <numero>1013</numero>
+    <libelle>Capital souscrit - appelé, versé</libelle>
+  </compte>
+  <compte>
+    <numero>10131</numero>
+    <libelle>Capital non amorti</libelle>
+  </compte>
+  <compte>
+    <numero>10132</numero>
+    <libelle>Capital amorti</libelle>
+  </compte>
+  <compte>
+    <numero>1018</numero>
+    <libelle>Capital souscrit soumis à des réglementations particulières</libelle>
+  </compte>
+  <compte>
+    <numero>104</numero>
+    <libelle>Primes liées au capital social</libelle>
+  </compte>
+  <compte>
+    <numero>1041</numero>
+    <libelle>Primes d'émission</libelle>
+  </compte>
+  <compte>
+    <numero>1042</numero>
+    <libelle>Primes de fusion</libelle>
+  </compte>
+  <compte>
+    <numero>1043</numero>
+    <libelle>Primes d'apport</libelle>
+  </compte>
+  <compte>
+    <numero>1044</numero>
+    <libelle>Primes de conversion d'obligations en actions</libelle>
+  </compte>
+  <compte>
+    <numero>1045</numero>
+    <libelle>Bons de souscription d'actions</libelle>
+  </compte>
+  <compte>
+    <numero>105</numero>
+    <libelle>Ecarts de réévaluation</libelle>
+  </compte>
+  <compte>
+    <numero>1051</numero>
+    <libelle>Réserve spéciale de réévaluation</libelle>
+  </compte>
+  <compte>
+    <numero>1052</numero>
+    <libelle>Ecart de réévaluation libre</libelle>
+  </compte>
+  <compte>
+    <numero>1053</numero>
+    <libelle>Réserve de réévaluation</libelle>
+  </compte>
+  <compte>
+    <numero>1055</numero>
+    <libelle>Ecarts de réévaluation (autres opérations légales)</libelle>
+  </compte>
+  <compte>
+    <numero>1057</numero>
+    <libelle>Autres écarts de réévaluation en France</libelle>
+  </compte>
+  <compte>
+    <numero>1058</numero>
+    <libelle>Autres écarts de réévaluation à l'étranger</libelle>
+  </compte>
+  <compte>
+    <numero>106</numero>
+    <libelle>Réserves</libelle>
+  </compte>
+  <compte>
+    <numero>1061</numero>
+    <libelle>Réserve légale</libelle>
+  </compte>
+  <compte>
+    <numero>10611</numero>
+    <libelle>Réserve légale proprement dite</libelle>
+  </compte>
+  <compte>
+    <numero>10612</numero>
+    <libelle>Plus-values nettes à long terme</libelle>
+  </compte>
+  <compte>
+    <numero>1062</numero>
+    <libelle>Réserves indisponibles</libelle>
+  </compte>
+  <compte>
+    <numero>1063</numero>
+    <libelle>Réserves statutaires ou contractuelles</libelle>
+  </compte>
+  <compte>
+    <numero>1064</numero>
+    <libelle>Réserves réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>10641</numero>
+    <libelle>Plus-values nette à long terme</libelle>
+  </compte>
+  <compte>
+    <numero>10643</numero>
+    <libelle>Réserves consécutives à l'octroi de subventions d'investissemnt</libelle>
+  </compte>
+  <compte>
+    <numero>10648</numero>
+    <libelle>Autres réserves réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>1068</numero>
+    <libelle>Autres réserves</libelle>
+  </compte>
+  <compte>
+    <numero>10681</numero>
+    <libelle>Réserve de propre assureur</libelle>
+  </compte>
+  <compte>
+    <numero>10688</numero>
+    <libelle>Réserve diverses</libelle>
+  </compte>
+  <compte>
+    <numero>107</numero>
+    <libelle>Ecart d'équivalence</libelle>
+  </compte>
+  <compte>
+    <numero>108</numero>
+    <libelle>Compte de l'exploitant</libelle>
+  </compte>
+  <compte>
+    <numero>109</numero>
+    <libelle>Actionnaires : capital souscrit - non appelé</libelle>
+  </compte>
+  <compte>
+    <numero>11</numero>
+    <libelle>Report à nouveau (solde créditeur)</libelle>
+  </compte>
+  <compte>
+    <numero>119</numero>
+    <libelle>Report à nouveau (solde débiteur)</libelle>
+  </compte>
+  <compte>
+    <numero>12</numero>
+    <libelle>Résultat de l'exercice (bénéfice)</libelle>
+  </compte>
+  <compte>
+    <numero>129</numero>
+    <libelle>Résultat de l'exercice (perte)</libelle>
+  </compte>
+  <compte>
+    <numero>13</numero>
+    <libelle>Subventions d'investissement</libelle>
+  </compte>
+  <compte>
+    <numero>131</numero>
+    <libelle>Subventions d'équipement</libelle>
+  </compte>
+  <compte>
+    <numero>1311</numero>
+    <libelle>Subventions d'équipement - Etat</libelle>
+  </compte>
+  <compte>
+    <numero>1312</numero>
+    <libelle>Subventions d'équipement - Régions</libelle>
+  </compte>
+  <compte>
+    <numero>1313</numero>
+    <libelle>Subventions d'équipement - Départements</libelle>
+  </compte>
+  <compte>
+    <numero>1314</numero>
+    <libelle>Subventions d'équipement - Communes</libelle>
+  </compte>
+  <compte>
+    <numero>1315</numero>
+    <libelle>Subventions d'équipement - Collectivités publiques</libelle>
+  </compte>
+  <compte>
+    <numero>1316</numero>
+    <libelle>Subventions d'équipement - Entreprises publiques</libelle>
+  </compte>
+  <compte>
+    <numero>1317</numero>
+    <libelle>Subventions d'équipement - Entreprises et organismes privés</libelle>
+  </compte>
+  <compte>
+    <numero>1318</numero>
+    <libelle>Subventions d'équipement - Autres</libelle>
+  </compte>
+  <compte>
+    <numero>138</numero>
+    <libelle>Autres subventions d'investissement</libelle>
+  </compte>
+  <compte>
+    <numero>1381</numero>
+    <libelle>Subventions d'investissement - Etat</libelle>
+  </compte>
+  <compte>
+    <numero>1382</numero>
+    <libelle>Subventions d'investissement - Régions</libelle>
+  </compte>
+  <compte>
+    <numero>1383</numero>
+    <libelle>Subventions d'investissement - Départements</libelle>
+  </compte>
+  <compte>
+    <numero>1384</numero>
+    <libelle>Subventions d'investissement - Communes</libelle>
+  </compte>
+  <compte>
+    <numero>1385</numero>
+    <libelle>Subventions d'investissement - Collectivités publiques</libelle>
+  </compte>
+  <compte>
+    <numero>1386</numero>
+    <libelle>Subventions d'investissement - Entreprises publiques</libelle>
+  </compte>
+  <compte>
+    <numero>1387</numero>
+    <libelle>Subventions d'investissement - Entreprises et organismes privés</libelle>
+  </compte>
+  <compte>
+    <numero>1388</numero>
+    <libelle>Subventions d'investissement - Autres</libelle>
+  </compte>
+  <compte>
+    <numero>139</numero>
+    <libelle>Subventions d'investissement inscrites au compte de résultat</libelle>
+  </compte>
+  <compte>
+    <numero>1391</numero>
+    <libelle>Subventions d'équipement</libelle>
+  </compte>
+  <compte>
+    <numero>13911</numero>
+    <libelle>Subventions d'équipement - Etat</libelle>
+  </compte>
+  <compte>
+    <numero>13912</numero>
+    <libelle>Subventions d'équipement - Région</libelle>
+  </compte>
+  <compte>
+    <numero>13913</numero>
+    <libelle>Subventions d'équipement - Département</libelle>
+  </compte>
+  <compte>
+    <numero>13914</numero>
+    <libelle>Subventions d'équipement - Commune</libelle>
+  </compte>
+  <compte>
+    <numero>13915</numero>
+    <libelle>Subventions d'équipement - Collectivités publiques</libelle>
+  </compte>
+  <compte>
+    <numero>13916</numero>
+    <libelle>Subventions d'équipement - Entreprises publiques</libelle>
+  </compte>
+  <compte>
+    <numero>13917</numero>
+    <libelle>Subventions d'équipement - Entreprises et organismes privés</libelle>
+  </compte>
+  <compte>
+    <numero>13918</numero>
+    <libelle>Subventions d'équipement - Autres</libelle>
+  </compte>
+  <compte>
+    <numero>1398</numero>
+    <libelle>Autres subventions d'investissement</libelle>
+  </compte>
+  <compte>
+    <numero>13981</numero>
+    <libelle>Autres subventions d'investissement - Etat</libelle>
+  </compte>
+  <compte>
+    <numero>13982</numero>
+    <libelle>Autres subventions d'investissement - Région</libelle>
+  </compte>
+  <compte>
+    <numero>13983</numero>
+    <libelle>Autres subventions d'investissement - Département</libelle>
+  </compte>
+  <compte>
+    <numero>13984</numero>
+    <libelle>Autres subventions d'investissement - Commune</libelle>
+  </compte>
+  <compte>
+    <numero>13985</numero>
+    <libelle>Autres subventions d'investissement - Collectivités publiques</libelle>
+  </compte>
+  <compte>
+    <numero>13986</numero>
+    <libelle>Autres subventions d'investissement - Entreprises publiques</libelle>
+  </compte>
+  <compte>
+    <numero>13987</numero>
+    <libelle>Autres subventions d'investissement - Entreprises et organismes privés</libelle>
+  </compte>
+  <compte>
+    <numero>13988</numero>
+    <libelle>Autres subventions d'investissement - Autres</libelle>
+  </compte>
+  <compte>
+    <numero>14</numero>
+    <libelle>Provisions réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>142</numero>
+    <libelle>Provisions réglementées relatives aux immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>1423</numero>
+    <libelle>Provisions pour reconstitutiones gisement miners et pétroliers</libelle>
+  </compte>
+  <compte>
+    <numero>1424</numero>
+    <libelle>Provisions pour investissement (participationes salariés)</libelle>
+  </compte>
+  <compte>
+    <numero>143</numero>
+    <libelle>Provisions réglementées relatives aux stocks</libelle>
+  </compte>
+  <compte>
+    <numero>1431</numero>
+    <libelle>Hausse des prix</libelle>
+  </compte>
+  <compte>
+    <numero>1432</numero>
+    <libelle>Fluctuation des cours</libelle>
+  </compte>
+  <compte>
+    <numero>144</numero>
+    <libelle>Provisions réglementées relatives aux autres élémentse l'actif</libelle>
+  </compte>
+  <compte>
+    <numero>145</numero>
+    <libelle>Amortissements dérogatoires</libelle>
+  </compte>
+  <compte>
+    <numero>146</numero>
+    <libelle>Provision spéciale de réévaluation</libelle>
+  </compte>
+  <compte>
+    <numero>147</numero>
+    <libelle>Plus-values réinvesties</libelle>
+  </compte>
+  <compte>
+    <numero>148</numero>
+    <libelle>Autres provisions réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>15</numero>
+    <libelle>Provisions pour risques et charges</libelle>
+  </compte>
+  <compte>
+    <numero>151</numero>
+    <libelle>Provisions pour risques</libelle>
+  </compte>
+  <compte>
+    <numero>1511</numero>
+    <libelle>Provisions pour litiges</libelle>
+  </compte>
+  <compte>
+    <numero>1512</numero>
+    <libelle>Provisions pour garanties données aux clients</libelle>
+  </compte>
+  <compte>
+    <numero>1513</numero>
+    <libelle>Provisions pour pertes sur marchés à terme</libelle>
+  </compte>
+  <compte>
+    <numero>1514</numero>
+    <libelle>Provisions pour amendes et pénalités</libelle>
+  </compte>
+  <compte>
+    <numero>1515</numero>
+    <libelle>Provisions pour pertes de change</libelle>
+  </compte>
+  <compte>
+    <numero>1516</numero>
+    <libelle>Provisions pour pertes sur contrats</libelle>
+  </compte>
+  <compte>
+    <numero>1518</numero>
+    <libelle>Autres provisions pour risques</libelle>
+  </compte>
+  <compte>
+    <numero>153</numero>
+    <libelle>Provisions pour pensions et obligations similaires</libelle>
+  </compte>
+  <compte>
+    <numero>154</numero>
+    <libelle>Provisions pour restructurations</libelle>
+  </compte>
+  <compte>
+    <numero>155</numero>
+    <libelle>Provisions pour impôts</libelle>
+  </compte>
+  <compte>
+    <numero>156</numero>
+    <libelle>Provisions pour renouvellementes d'mmobilisations (entreprises concessionnaires)</libelle>
+  </compte>
+  <compte>
+    <numero>157</numero>
+    <libelle>Provisions pour charges à répartir sur plusieursxercices</libelle>
+  </compte>
+  <compte>
+    <numero>1572</numero>
+    <libelle>Provisions pour gros entretien ou grandes révisions</libelle>
+  </compte>
+  <compte>
+    <numero>158</numero>
+    <libelle>Autres provisions pour charges</libelle>
+  </compte>
+  <compte>
+    <numero>1581</numero>
+    <libelle>Provisions pour remises en état</libelle>
+  </compte>
+  <compte>
+    <numero>16</numero>
+    <libelle>Emprunts et dettes assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>161</numero>
+    <libelle>Emprunts obligataires convertibles</libelle>
+  </compte>
+  <compte>
+    <numero>163</numero>
+    <libelle>Autres emprunts obligataires</libelle>
+  </compte>
+  <compte>
+    <numero>164</numero>
+    <libelle>Emprunts auprès des établissements de crédit</libelle>
+  </compte>
+  <compte>
+    <numero>165</numero>
+    <libelle>Dépôts et cautionnements reçus</libelle>
+  </compte>
+  <compte>
+    <numero>1651</numero>
+    <libelle>Dépôts reçus</libelle>
+  </compte>
+  <compte>
+    <numero>1655</numero>
+    <libelle>Cautionnements reçus</libelle>
+  </compte>
+  <compte>
+    <numero>166</numero>
+    <libelle>Participation des salariés aux résultats</libelle>
+  </compte>
+  <compte>
+    <numero>1661</numero>
+    <libelle>Comptes bloqués</libelle>
+  </compte>
+  <compte>
+    <numero>1662</numero>
+    <libelle>Fonds de participation</libelle>
+  </compte>
+  <compte>
+    <numero>167</numero>
+    <libelle>Emprunts et dettes assortis de conditions particulières</libelle>
+  </compte>
+  <compte>
+    <numero>1671</numero>
+    <libelle>Emissionse titres participatifs</libelle>
+  </compte>
+  <compte>
+    <numero>1674</numero>
+    <libelle>Avances conditionnées de l'Etat</libelle>
+  </compte>
+  <compte>
+    <numero>1675</numero>
+    <libelle>Emprunts participatifs</libelle>
+  </compte>
+  <compte>
+    <numero>168</numero>
+    <libelle>Autres emprunts et dettes assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>1681</numero>
+    <libelle>Autres emprunts</libelle>
+  </compte>
+  <compte>
+    <numero>1685</numero>
+    <libelle>Rentes viagères capitalisées</libelle>
+  </compte>
+  <compte>
+    <numero>1687</numero>
+    <libelle>Autres dettes</libelle>
+  </compte>
+  <compte>
+    <numero>1688</numero>
+    <libelle>Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>16881</numero>
+    <libelle>Intérêts courus - Sur emprunts obligataires convertibles</libelle>
+  </compte>
+  <compte>
+    <numero>16883</numero>
+    <libelle>Intérêts courus - Sur autres emprunts obligataires</libelle>
+  </compte>
+  <compte>
+    <numero>16884</numero>
+    <libelle>Intérêts courus - Sur emprunts auprès des établissements de crédits</libelle>
+  </compte>
+  <compte>
+    <numero>16885</numero>
+    <libelle>Intérêts courus - Sur dépôt et cautionnements reçus</libelle>
+  </compte>
+  <compte>
+    <numero>16886</numero>
+    <libelle>Intérêts courus - Sur participations des salariés aux résultat</libelle>
+  </compte>
+  <compte>
+    <numero>16887</numero>
+    <libelle>Intérêts courus - Sur emprunts et dettes assortis de conditions particulières</libelle>
+  </compte>
+  <compte>
+    <numero>16888</numero>
+    <libelle>Intérêts courus - Sur autres emprunts et dettes assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>169</numero>
+    <libelle>Primes de remboursement des obligations</libelle>
+  </compte>
+  <compte>
+    <numero>17</numero>
+    <libelle>Dettes rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>171</numero>
+    <libelle>Dettes rattachées à des participations (groupe)</libelle>
+  </compte>
+  <compte>
+    <numero>174</numero>
+    <libelle>Dettes rattachées à des participations (hors groupe)</libelle>
+  </compte>
+  <compte>
+    <numero>178</numero>
+    <libelle>Dettes rattachées à des sociétésn participation</libelle>
+  </compte>
+  <compte>
+    <numero>1781</numero>
+    <libelle>Principal</libelle>
+  </compte>
+  <compte>
+    <numero>1788</numero>
+    <libelle>Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>18</numero>
+    <libelle>Comptes de liaison des établissements et sociétés en participation</libelle>
+  </compte>
+  <compte>
+    <numero>181</numero>
+    <libelle>Comptes de liaison des établissements</libelle>
+  </compte>
+  <compte>
+    <numero>186</numero>
+    <libelle>Biens et prestations de services échangés entre établissements (charges)</libelle>
+  </compte>
+  <compte>
+    <numero>187</numero>
+    <libelle>Biens et prestations de services échangés entre établissements (produits)</libelle>
+  </compte>
+  <compte>
+    <numero>188</numero>
+    <libelle>Comptes de liaison des sociétés en participation</libelle>
+  </compte>
+  <compte>
+    <numero>201</numero>
+    <libelle>Frais d'établissement</libelle>
+  </compte>
+  <compte>
+    <numero>2011</numero>
+    <libelle>Frais de constitution</libelle>
+  </compte>
+  <compte>
+    <numero>2012</numero>
+    <libelle>Frais de première établissement</libelle>
+  </compte>
+  <compte>
+    <numero>20121</numero>
+    <libelle>Frais de première établissement - Frais de prospection</libelle>
+  </compte>
+  <compte>
+    <numero>20122</numero>
+    <libelle>Frais de première établissement - Frais de publicité</libelle>
+  </compte>
+  <compte>
+    <numero>2013</numero>
+    <libelle>Frais d'auguementaion de capital et d'opérations diverses(fusions, scissions, transformations)</libelle>
+  </compte>
+  <compte>
+    <numero>203</numero>
+    <libelle>Fraise de recherche et de développement</libelle>
+  </compte>
+  <compte>
+    <numero>205</numero>
+    <libelle>Concessions et droits similaires, brevets, licences,arques, procédés, logiciels,roitst valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>206</numero>
+    <libelle>Droit au bail</libelle>
+  </compte>
+  <compte>
+    <numero>207</numero>
+    <libelle>Fonds commercial</libelle>
+  </compte>
+  <compte>
+    <numero>208</numero>
+    <libelle>Autres immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>21</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>211</numero>
+    <libelle>Terrains</libelle>
+  </compte>
+  <compte>
+    <numero>2111</numero>
+    <libelle>Terrains nus</libelle>
+  </compte>
+  <compte>
+    <numero>2112</numero>
+    <libelle>Terrains aménagés</libelle>
+  </compte>
+  <compte>
+    <numero>2113</numero>
+    <libelle>Sous-sols et sur-sols</libelle>
+  </compte>
+  <compte>
+    <numero>2114</numero>
+    <libelle>Terrains de gisement</libelle>
+  </compte>
+  <compte>
+    <numero>21141</numero>
+    <libelle>Carrières</libelle>
+  </compte>
+  <compte>
+    <numero>2115</numero>
+    <libelle>Terrains bâtis</libelle>
+  </compte>
+  <compte>
+    <numero>2116</numero>
+    <libelle>Compte d'ordre sur immobilisation</libelle>
+  </compte>
+  <compte>
+    <numero>212</numero>
+    <libelle>Agencement et aménagements de terrains</libelle>
+  </compte>
+  <compte>
+    <numero>2121</numero>
+    <libelle>Agencement et aménagements de terrains nus</libelle>
+  </compte>
+  <compte>
+    <numero>2122</numero>
+    <libelle>Agencement et aménagements de terrains aménagés</libelle>
+  </compte>
+  <compte>
+    <numero>2123</numero>
+    <libelle>Agencement et aménagements sous-sols et sur-sols</libelle>
+  </compte>
+  <compte>
+    <numero>2124</numero>
+    <libelle>Agencement et aménagements de terrains de gisement</libelle>
+  </compte>
+  <compte>
+    <numero>2125</numero>
+    <libelle>Agencement et aménagements de terrains bâtis</libelle>
+  </compte>
+  <compte>
+    <numero>2126</numero>
+    <libelle>Agencement et aménagements - compte d'ordre sur immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>213</numero>
+    <libelle>Constructions</libelle>
+  </compte>
+  <compte>
+    <numero>2131</numero>
+    <libelle>Bâtiments</libelle>
+  </compte>
+  <compte>
+    <numero>2135</numero>
+    <libelle>Installations générales - agencements - aménagements des constructions</libelle>
+  </compte>
+  <compte>
+    <numero>2138</numero>
+    <libelle>Ouvrages d'infrastructure</libelle>
+  </compte>
+  <compte>
+    <numero>21381</numero>
+    <libelle>Voies de terre</libelle>
+  </compte>
+  <compte>
+    <numero>21382</numero>
+    <libelle>Voies de fer</libelle>
+  </compte>
+  <compte>
+    <numero>21383</numero>
+    <libelle>Voie d'eau</libelle>
+  </compte>
+  <compte>
+    <numero>21384</numero>
+    <libelle>Barrages</libelle>
+  </compte>
+  <compte>
+    <numero>21385</numero>
+    <libelle>Pistes d'aérodromes</libelle>
+  </compte>
+  <compte>
+    <numero>214</numero>
+    <libelle>Constructions sur sol d'autrui</libelle>
+  </compte>
+  <compte>
+    <numero>2141</numero>
+    <libelle>Constructions sur sol d'autrui - Bâtiment</libelle>
+  </compte>
+  <compte>
+    <numero>2145</numero>
+    <libelle>Constructions sur sol d'autrui - Installations générales - agencements - aménagementses cnstructions</libelle>
+  </compte>
+  <compte>
+    <numero>2148</numero>
+    <libelle>Constructions sur sol d'autrui - Ouvrages d'infrastructure</libelle>
+  </compte>
+  <compte>
+    <numero>215</numero>
+    <libelle>Installations techniques, matériels et outillages industriels</libelle>
+  </compte>
+  <compte>
+    <numero>2151</numero>
+    <libelle>Installations complexes spécialisées</libelle>
+  </compte>
+  <compte>
+    <numero>21511</numero>
+    <libelle>Installations complexes spécialisées - sur sol propre</libelle>
+  </compte>
+  <compte>
+    <numero>21514</numero>
+    <libelle>Installations complexes spécialisées - sur saol d'autrui</libelle>
+  </compte>
+  <compte>
+    <numero>2153</numero>
+    <libelle>Installations à caractère spécifique</libelle>
+  </compte>
+  <compte>
+    <numero>21531</numero>
+    <libelle>Installations à caractère spécifique - sur sol propre</libelle>
+  </compte>
+  <compte>
+    <numero>21534</numero>
+    <libelle>Installations à caractère spécifique - sur sol d'autrui</libelle>
+  </compte>
+  <compte>
+    <numero>2154</numero>
+    <libelle>Matériels industriels</libelle>
+  </compte>
+  <compte>
+    <numero>2155</numero>
+    <libelle>Outillage industriel</libelle>
+  </compte>
+  <compte>
+    <numero>2157</numero>
+    <libelle>Agencements et aménagementsesatérielstutillagesndustriels</libelle>
+  </compte>
+  <compte>
+    <numero>218</numero>
+    <libelle>Autres immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2181</numero>
+    <libelle>Installations générales, agencements, aménagementsivers</libelle>
+  </compte>
+  <compte>
+    <numero>2182</numero>
+    <libelle>Matériel de transport</libelle>
+  </compte>
+  <compte>
+    <numero>2183</numero>
+    <libelle>Matériel de bureaut et matérie lnformatique</libelle>
+  </compte>
+  <compte>
+    <numero>2184</numero>
+    <libelle>Mobilier</libelle>
+  </compte>
+  <compte>
+    <numero>2185</numero>
+    <libelle>Cheptel</libelle>
+  </compte>
+  <compte>
+    <numero>2186</numero>
+    <libelle>Emballages récupérables</libelle>
+  </compte>
+  <compte>
+    <numero>22</numero>
+    <libelle>Immobilisations mise en concession</libelle>
+  </compte>
+  <compte>
+    <numero>23</numero>
+    <libelle>Immobilisations en cours</libelle>
+  </compte>
+  <compte>
+    <numero>231</numero>
+    <libelle>Immobilisations corporelles en cours</libelle>
+  </compte>
+  <compte>
+    <numero>2312</numero>
+    <libelle>Immobilisations corporelles en cours - Terrain</libelle>
+  </compte>
+  <compte>
+    <numero>2313</numero>
+    <libelle>Immobilisations corporelles en cours - Constructions</libelle>
+  </compte>
+  <compte>
+    <numero>2315</numero>
+    <libelle>Immobilisations corporelles en cours - Intallation techniques matériel et outillage industirels</libelle>
+  </compte>
+  <compte>
+    <numero>2318</numero>
+    <libelle>Immobilisations corporelles en cours - Autres immobilisationq corporellles</libelle>
+  </compte>
+  <compte>
+    <numero>232</numero>
+    <libelle>Immobilisations incorporelles en cours</libelle>
+  </compte>
+  <compte>
+    <numero>237</numero>
+    <libelle>Avances et acomptes versés sur immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>238</numero>
+    <libelle>Avances et acomptes versés sur commandes d'immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2382</numero>
+    <libelle>Avances et acomptes versés sur commandes d'immobilisations corporelles - Terrains</libelle>
+  </compte>
+  <compte>
+    <numero>2383</numero>
+    <libelle>Avances et acomptes versés sur commandes d'immobilisations corporelles - Constructions</libelle>
+  </compte>
+  <compte>
+    <numero>2385</numero>
+    <libelle>Avances et acomptes versés sur commandes d'immobilisations corporelles - Intallation techniques matériel et outillage</libelle>
+  </compte>
+  <compte>
+    <numero>2388</numero>
+    <libelle>Avances et acomptes versés sur commandes d'immobilisations corporelles - Autres immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>25</numero>
+    <libelle>Parts dans des entreprises liées et créances sur des entreprises liées</libelle>
+  </compte>
+  <compte>
+    <numero>26</numero>
+    <libelle>Participations et créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>261</numero>
+    <libelle>Titres de participation</libelle>
+  </compte>
+  <compte>
+    <numero>2611</numero>
+    <libelle>Titres de participation - Actions</libelle>
+  </compte>
+  <compte>
+    <numero>2618</numero>
+    <libelle>Titres de participation - Autres Titres</libelle>
+  </compte>
+  <compte>
+    <numero>266</numero>
+    <libelle>Autres formes de participation</libelle>
+  </compte>
+  <compte>
+    <numero>267</numero>
+    <libelle>Créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>2671</numero>
+    <libelle>Créances rattachées à des participations (groupe)</libelle>
+  </compte>
+  <compte>
+    <numero>2674</numero>
+    <libelle>Créances rattachées à des participations (hors groupe)</libelle>
+  </compte>
+  <compte>
+    <numero>2675</numero>
+    <libelle>Versements representatifs d'apport non capitalisé (appels de fonds)</libelle>
+  </compte>
+  <compte>
+    <numero>2676</numero>
+    <libelle>Avances consolidables</libelle>
+  </compte>
+  <compte>
+    <numero>2677</numero>
+    <libelle>Autres créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>2678</numero>
+    <libelle>Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>268</numero>
+    <libelle>Créances rattachées à des sociétés en participation</libelle>
+  </compte>
+  <compte>
+    <numero>2681</numero>
+    <libelle>Créances rattachées à des sociétés en participation - principal</libelle>
+  </compte>
+  <compte>
+    <numero>2688</numero>
+    <libelle>Créances rattachées à des sociétés en participation - Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>269</numero>
+    <libelle>Versements restant à effectuer sur titres de participation non libérés</libelle>
+  </compte>
+  <compte>
+    <numero>27</numero>
+    <libelle>Autres immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>271</numero>
+    <libelle>Titres mmobilisés autres que les titres immobilisése l'activité portefeuille (droit de propriété)</libelle>
+  </compte>
+  <compte>
+    <numero>2711</numero>
+    <libelle>Titres mmobilisés autres que les titres immobilisése l'activité portefeuille (droit de propriété) - Actions</libelle>
+  </compte>
+  <compte>
+    <numero>2718</numero>
+    <libelle>Titres mmobilisés autres que les titres immobilisése l'activité portefeuille (droit de propriété) - Autres titres</libelle>
+  </compte>
+  <compte>
+    <numero>272</numero>
+    <libelle>Titres immobilisés (droits de créance)</libelle>
+  </compte>
+  <compte>
+    <numero>2721</numero>
+    <libelle>Titres immobilisés (droits de créance) - Obligations</libelle>
+  </compte>
+  <compte>
+    <numero>2722</numero>
+    <libelle>Titres immobilisés (droits de créance) - Bons</libelle>
+  </compte>
+  <compte>
+    <numero>273</numero>
+    <libelle>Titres immobilisése l'activité portefeuille</libelle>
+  </compte>
+  <compte>
+    <numero>274</numero>
+    <libelle>Prêts</libelle>
+  </compte>
+  <compte>
+    <numero>2741</numero>
+    <libelle>Prêts participatifs</libelle>
+  </compte>
+  <compte>
+    <numero>2742</numero>
+    <libelle>Prêts aux associés</libelle>
+  </compte>
+  <compte>
+    <numero>2743</numero>
+    <libelle>Prêts au personnel</libelle>
+  </compte>
+  <compte>
+    <numero>2748</numero>
+    <libelle>Autres prêts</libelle>
+  </compte>
+  <compte>
+    <numero>275</numero>
+    <libelle>Dépôts et cautionnements versés</libelle>
+  </compte>
+  <compte>
+    <numero>2751</numero>
+    <libelle>Dépôts versés</libelle>
+  </compte>
+  <compte>
+    <numero>2755</numero>
+    <libelle>Cautionnements versés</libelle>
+  </compte>
+  <compte>
+    <numero>276</numero>
+    <libelle>Autres créances immobilisées</libelle>
+  </compte>
+  <compte>
+    <numero>2761</numero>
+    <libelle>Créances diverses</libelle>
+  </compte>
+  <compte>
+    <numero>2768</numero>
+    <libelle>Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>27682</numero>
+    <libelle>Intérêts courus - Sur titres immobilisés (droits de créances</libelle>
+  </compte>
+  <compte>
+    <numero>27684</numero>
+    <libelle>Intérêts courus - Sur prêts</libelle>
+  </compte>
+  <compte>
+    <numero>27685</numero>
+    <libelle>Intérêts courus - Sur dépôts et cautionnemets</libelle>
+  </compte>
+  <compte>
+    <numero>27688</numero>
+    <libelle>Intérêts courus - Sur créances diverses</libelle>
+  </compte>
+  <compte>
+    <numero>277</numero>
+    <libelle>(Actions propres ou parts propres)</libelle>
+  </compte>
+  <compte>
+    <numero>2771</numero>
+    <libelle>Actions propres ou parts propres</libelle>
+  </compte>
+  <compte>
+    <numero>2772</numero>
+    <libelle>Actions propres ou parts propres en voie d'annulation</libelle>
+  </compte>
+  <compte>
+    <numero>279</numero>
+    <libelle>Versements restant àffectuer sur titresmmobilisés non libérés</libelle>
+  </compte>
+  <compte>
+    <numero>28</numero>
+    <libelle>Amortissements immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2801</numero>
+    <libelle>Amortissements - Frais d'établissement</libelle>
+  </compte>
+  <compte>
+    <numero>28011</numero>
+    <libelle>Amortissement - Frais de constitution</libelle>
+  </compte>
+  <compte>
+    <numero>28012</numero>
+    <libelle>Amortissement - Frais de première établissement</libelle>
+  </compte>
+  <compte>
+    <numero>28013</numero>
+    <libelle>Amortissement - Frais de première établissement</libelle>
+  </compte>
+  <compte>
+    <numero>2803</numero>
+    <libelle>Amortissement - Frais de recherche et développement</libelle>
+  </compte>
+  <compte>
+    <numero>2805</numero>
+    <libelle>Amortissement - Concessions et droits similaires, brevets, licences, logiciels, droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>2807</numero>
+    <libelle>Amortissement - Fonds commercial</libelle>
+  </compte>
+  <compte>
+    <numero>2808</numero>
+    <libelle>Amortissement - Autres immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>281</numero>
+    <libelle>Amortissement des immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2811</numero>
+    <libelle>Amortissement - Terrains de gisement</libelle>
+  </compte>
+  <compte>
+    <numero>2812</numero>
+    <libelle>Amortissement - Agencements, aménagementse terrains</libelle>
+  </compte>
+  <compte>
+    <numero>2813</numero>
+    <libelle>Amortissement - Constructions</libelle>
+  </compte>
+  <compte>
+    <numero>2814</numero>
+    <libelle>Amortissement - Constructions sur sol d'autrui</libelle>
+  </compte>
+  <compte>
+    <numero>2815</numero>
+    <libelle>Amortissement - Installations matériel et outillage industriels</libelle>
+  </compte>
+  <compte>
+    <numero>2818</numero>
+    <libelle>Amortissement - Autres immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>28181</numero>
+    <libelle>Ammortissements des installations générales, agencements, aménagements divers</libelle>
+  </compte>
+  <compte>
+    <numero>28182</numero>
+    <libelle>Ammortissements des matériel de transport</libelle>
+  </compte>
+  <compte>
+    <numero>28183</numero>
+    <libelle>Ammortissements des matériel de bureau et matériel informatique</libelle>
+  </compte>
+  <compte>
+    <numero>28184</numero>
+    <libelle>Ammortissements des mobilier</libelle>
+  </compte>
+  <compte>
+    <numero>28185</numero>
+    <libelle>Ammortissements cheptel</libelle>
+  </compte>
+  <compte>
+    <numero>28186</numero>
+    <libelle>Ammortissements des emballages récupérables</libelle>
+  </compte>
+  <compte>
+    <numero>282</numero>
+    <libelle>Amortissements des immobilisations mises en concession</libelle>
+  </compte>
+  <compte>
+    <numero>29</numero>
+    <libelle>Dépréciations des immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2905</numero>
+    <libelle>Dépréciations des marques, procédés, droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>2906</numero>
+    <libelle>Dépréciations des droit au bail</libelle>
+  </compte>
+  <compte>
+    <numero>2907</numero>
+    <libelle>Dépréciations des fonds commercial</libelle>
+  </compte>
+  <compte>
+    <numero>2908</numero>
+    <libelle>Dépréciations des autres immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>291</numero>
+    <libelle>Dépréciations des immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>2911</numero>
+    <libelle>Terrains (autres que terrains de gisement)</libelle>
+  </compte>
+  <compte>
+    <numero>292</numero>
+    <libelle>Dépréciations des immobilisations mises en concession</libelle>
+  </compte>
+  <compte>
+    <numero>293</numero>
+    <libelle>Dépréciations des immobilisations en cours</libelle>
+  </compte>
+  <compte>
+    <numero>2931</numero>
+    <libelle>Immobilisations corporelles en cours</libelle>
+  </compte>
+  <compte>
+    <numero>2932</numero>
+    <libelle>Immobilisations incorporelles en cours</libelle>
+  </compte>
+  <compte>
+    <numero>296</numero>
+    <libelle>Provisions pour dépréciation des participations et créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>2961</numero>
+    <libelle>Titres de participation</libelle>
+  </compte>
+  <compte>
+    <numero>2966</numero>
+    <libelle>Autres formes de participation</libelle>
+  </compte>
+  <compte>
+    <numero>2967</numero>
+    <libelle>Créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>2968</numero>
+    <libelle>Créances rattachées à des sociétés en participation</libelle>
+  </compte>
+  <compte>
+    <numero>297</numero>
+    <libelle>Provisions pour dépréciationes autres immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>2971</numero>
+    <libelle>Titres immobilisés autres que les titres immobilisés de l'activité portefeuille - droit de propriété</libelle>
+  </compte>
+  <compte>
+    <numero>2972</numero>
+    <libelle>Titres immobilisés, droit de créance</libelle>
+  </compte>
+  <compte>
+    <numero>2973</numero>
+    <libelle>Titres immobilisés de l'activité portefeuille</libelle>
+  </compte>
+  <compte>
+    <numero>2974</numero>
+    <libelle>Prêts</libelle>
+  </compte>
+  <compte>
+    <numero>2975</numero>
+    <libelle>Dépôts et cautionnement versés</libelle>
+  </compte>
+  <compte>
+    <numero>29751</numero>
+    <libelle>Dépôts versés</libelle>
+  </compte>
+  <compte>
+    <numero>29755</numero>
+    <libelle>Cautionnements versés</libelle>
+  </compte>
+  <compte>
+    <numero>2976</numero>
+    <libelle>Autres créances immobilisées</libelle>
+  </compte>
+  <compte>
+    <numero>31</numero>
+    <libelle>Matières premièrestournitures</libelle>
+  </compte>
+  <compte>
+    <numero>311</numero>
+    <libelle>Matière première A</libelle>
+  </compte>
+  <compte>
+    <numero>312</numero>
+    <libelle>Matière première B</libelle>
+  </compte>
+  <compte>
+    <numero>317</numero>
+    <libelle>Fournitures A,</libelle>
+  </compte>
+  <compte>
+    <numero>32</numero>
+    <libelle>Autres approvisionnements</libelle>
+  </compte>
+  <compte>
+    <numero>321</numero>
+    <libelle>Matières consommables</libelle>
+  </compte>
+  <compte>
+    <numero>322</numero>
+    <libelle>Fournitures consommables</libelle>
+  </compte>
+  <compte>
+    <numero>326</numero>
+    <libelle>Emballages</libelle>
+  </compte>
+  <compte>
+    <numero>33</numero>
+    <libelle>En-cours de Productione biens</libelle>
+  </compte>
+  <compte>
+    <numero>331</numero>
+    <libelle>Produits en cours</libelle>
+  </compte>
+  <compte>
+    <numero>335</numero>
+    <libelle>Travaux en cours</libelle>
+  </compte>
+  <compte>
+    <numero>34</numero>
+    <libelle>En-cours de Production de services</libelle>
+  </compte>
+  <compte>
+    <numero>341</numero>
+    <libelle>Études en cours</libelle>
+  </compte>
+  <compte>
+    <numero>345</numero>
+    <libelle>Prestations de servicen cours</libelle>
+  </compte>
+  <compte>
+    <numero>35</numero>
+    <libelle>Stocks de produits</libelle>
+  </compte>
+  <compte>
+    <numero>351</numero>
+    <libelle>Produits intermédiaires</libelle>
+  </compte>
+  <compte>
+    <numero>355</numero>
+    <libelle>Produits finis</libelle>
+  </compte>
+  <compte>
+    <numero>358</numero>
+    <libelle>Produits résiduels (ou matière de récupération)</libelle>
+  </compte>
+  <compte>
+    <numero>3581</numero>
+    <libelle>Déchets</libelle>
+  </compte>
+  <compte>
+    <numero>3585</numero>
+    <libelle>Rebuts</libelle>
+  </compte>
+  <compte>
+    <numero>3586</numero>
+    <libelle>Matières de récupération</libelle>
+  </compte>
+  <compte>
+    <numero>36</numero>
+    <libelle>Stocks provenant d'immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>37</numero>
+    <libelle>Stocks de marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>371</numero>
+    <libelle>Marchandise A</libelle>
+  </compte>
+  <compte>
+    <numero>372</numero>
+    <libelle>Marchandise B</libelle>
+  </compte>
+  <compte>
+    <numero>39</numero>
+    <libelle>Provisions pour dépréciation des stocks et en-cours</libelle>
+  </compte>
+  <compte>
+    <numero>391</numero>
+    <libelle>Provisions pour dépréciation des matières premières</libelle>
+  </compte>
+  <compte>
+    <numero>392</numero>
+    <libelle>Provisions pour dépréciation des autres approvisionnements</libelle>
+  </compte>
+  <compte>
+    <numero>393</numero>
+    <libelle>Provisions pour dépréciations des en-cours de production de biens</libelle>
+  </compte>
+  <compte>
+    <numero>394</numero>
+    <libelle>Provisions pour dépréciations des en-cours de production services</libelle>
+  </compte>
+  <compte>
+    <numero>395</numero>
+    <libelle>Provisions pour dépréciations des stocks de produits</libelle>
+  </compte>
+  <compte>
+    <numero>397</numero>
+    <libelle>Provisions pour dépréciations des stockse de marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>403</numero>
+    <libelle>Fournisseurs - Effets à payer</libelle>
+  </compte>
+  <compte>
+    <numero>404</numero>
+    <libelle>Fournisseurs'immobilisation</libelle>
+  </compte>
+  <compte>
+    <numero>4041</numero>
+    <libelle>Fournisseurs - Achats d'immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>4047</numero>
+    <libelle>Fournisseurs - Achats d'immobilisations - retenues de garantie</libelle>
+  </compte>
+  <compte>
+    <numero>405</numero>
+    <libelle>Fournisseurs d'immobilisations - Effets à payer</libelle>
+  </compte>
+  <compte>
+    <numero>408</numero>
+    <libelle>Fournisseurs Factures non parvenues</libelle>
+  </compte>
+  <compte>
+    <numero>4081</numero>
+    <libelle>Fournisseurs Factures non parvenues</libelle>
+  </compte>
+  <compte>
+    <numero>4084</numero>
+    <libelle>Fournisseurs d'immobilisations - Factures non parvenues</libelle>
+  </compte>
+  <compte>
+    <numero>4088</numero>
+    <libelle>Fournisseurs intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>409</numero>
+    <libelle>Fournisseurs Débiteurs</libelle>
+  </compte>
+  <compte>
+    <numero>4091</numero>
+    <libelle>Fournisseurs - Avance et acomptes versés sur commandes</libelle>
+  </compte>
+  <compte>
+    <numero>4096</numero>
+    <libelle>Fournisseurs - Créance pour emballages et matériels à rendreDébiteurs</libelle>
+  </compte>
+  <compte>
+    <numero>4097</numero>
+    <libelle>Fournisseurs - Autres avoirs</libelle>
+  </compte>
+  <compte>
+    <numero>40971</numero>
+    <libelle>Fournisseurs d'exploitation - Autres avoirs</libelle>
+  </compte>
+  <compte>
+    <numero>40974</numero>
+    <libelle>Fournisseurs d'immobilisations - Autres avoirs</libelle>
+  </compte>
+  <compte>
+    <numero>4098</numero>
+    <libelle>Rabais, remises, ristournes à obtenir et autres avoirs non encore reçu</libelle>
+  </compte>
+  <compte>
+    <numero>41</numero>
+    <libelle>Clients et comptes rattachés</libelle>
+  </compte>
+  <compte>
+    <numero>411</numero>
+    <libelle>Clients</libelle>
+  </compte>
+  <compte>
+    <numero>413</numero>
+    <libelle>Clients -effets à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>416</numero>
+    <libelle>Clients douteux ou litigieux</libelle>
+  </compte>
+  <compte>
+    <numero>418</numero>
+    <libelle>Clients Produits non encore facturés</libelle>
+  </compte>
+  <compte>
+    <numero>4181</numero>
+    <libelle>Clients - Factures à établir</libelle>
+  </compte>
+  <compte>
+    <numero>4188</numero>
+    <libelle>Clients - Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>419</numero>
+    <libelle>Clients Créditeurs</libelle>
+  </compte>
+  <compte>
+    <numero>4191</numero>
+    <libelle>Clients - Avances et acomptes reçus sur commandes</libelle>
+  </compte>
+  <compte>
+    <numero>4196</numero>
+    <libelle>Clients dette sur emballage à rendre</libelle>
+  </compte>
+  <compte>
+    <numero>4197</numero>
+    <libelle>Clients autres avoirs</libelle>
+  </compte>
+  <compte>
+    <numero>4198</numero>
+    <libelle>RRR à accorder et autres avoirs à établir</libelle>
+  </compte>
+  <compte>
+    <numero>42</numero>
+    <libelle>Personnel et comptes rattachés</libelle>
+  </compte>
+  <compte>
+    <numero>421</numero>
+    <libelle>Personnel - Rénumérations duesNotes de frais</libelle>
+  </compte>
+  <compte>
+    <numero>422</numero>
+    <libelle>Comités d'entreprise, d'établissement</libelle>
+  </compte>
+  <compte>
+    <numero>423</numero>
+    <libelle>Notes de frais</libelle>
+  </compte>
+  <compte>
+    <numero>424</numero>
+    <libelle>Participation des salariés aux résultats</libelle>
+  </compte>
+  <compte>
+    <numero>4246</numero>
+    <libelle>Réserve spéciale (art. L. 442-2 du code du travail)</libelle>
+  </compte>
+  <compte>
+    <numero>4248</numero>
+    <libelle>Comptes courants</libelle>
+  </compte>
+  <compte>
+    <numero>425</numero>
+    <libelle>Personnel - Avance et acompte</libelle>
+  </compte>
+  <compte>
+    <numero>426</numero>
+    <libelle>Personnel - Dépôts</libelle>
+  </compte>
+  <compte>
+    <numero>427</numero>
+    <libelle>Personnel - Oppositions</libelle>
+  </compte>
+  <compte>
+    <numero>428</numero>
+    <libelle>Personnel - Charges à payer et produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>4282</numero>
+    <libelle>Dettes provisionnées pour congés à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4284</numero>
+    <libelle>Dettes provisionnées pour participation des salariés aux résultats</libelle>
+  </compte>
+  <compte>
+    <numero>4286</numero>
+    <libelle>Autres charges à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4287</numero>
+    <libelle>Produit à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>43</numero>
+    <libelle>Sécurité Sociale et autres organismes sociaux</libelle>
+  </compte>
+  <compte>
+    <numero>431</numero>
+    <libelle>Sécurité Sociale</libelle>
+  </compte>
+  <compte>
+    <numero>437</numero>
+    <libelle>Autres Organismes Sociaux</libelle>
+  </compte>
+  <compte>
+    <numero>438</numero>
+    <libelle>Organismes Sociaux Charges à payer et Produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>4382</numero>
+    <libelle>Charges sociales sur congés à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4386</numero>
+    <libelle>Autres charges à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4387</numero>
+    <libelle>Produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>44</numero>
+    <libelle>Etat et autres collectivitées publique</libelle>
+  </compte>
+  <compte>
+    <numero>441</numero>
+    <libelle>Etat subventions à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>4411</numero>
+    <libelle>Subvention d'investissement</libelle>
+  </compte>
+  <compte>
+    <numero>4417</numero>
+    <libelle>Subvention d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>4418</numero>
+    <libelle>Subvention d'équilibre</libelle>
+  </compte>
+  <compte>
+    <numero>4419</numero>
+    <libelle>Avances sur subventions</libelle>
+  </compte>
+  <compte>
+    <numero>442</numero>
+    <libelle>Etat - Impôts et taxes recouvrables sur des tiers</libelle>
+  </compte>
+  <compte>
+    <numero>4424</numero>
+    <libelle>Etat - Impôts et taxes recouvrables sur des tiers - Obligataires</libelle>
+  </compte>
+  <compte>
+    <numero>4425</numero>
+    <libelle>Etat - Impôts et taxes recouvrables sur des tiers - Associés</libelle>
+  </compte>
+  <compte>
+    <numero>443</numero>
+    <libelle>Opérations particulières avec l'Etat, les collectivités publiques, les organismes internationaux</libelle>
+  </compte>
+  <compte>
+    <numero>4431</numero>
+    <libelle>Créances dur l'état résultant de la supression de la règle du déalage d'un mois en matière de TVA</libelle>
+  </compte>
+  <compte>
+    <numero>4438</numero>
+    <libelle>Intérêts courus sur créances figurant au compte 4431</libelle>
+  </compte>
+  <compte>
+    <numero>444</numero>
+    <libelle>Etat - Impôts sur les bénéfices</libelle>
+  </compte>
+  <compte>
+    <numero>445</numero>
+    <libelle>Etat - Taxes sur le chiffre d'affaires</libelle>
+  </compte>
+  <compte>
+    <numero>4452</numero>
+    <libelle>TVA due intracommunautaire</libelle>
+  </compte>
+  <compte>
+    <numero>4455</numero>
+    <libelle>Taxe sur le CA à décaisser</libelle>
+  </compte>
+  <compte>
+    <numero>44551</numero>
+    <libelle>TVA à décaisser</libelle>
+  </compte>
+  <compte>
+    <numero>44558</numero>
+    <libelle>Taxes assimilées à la TVA</libelle>
+  </compte>
+  <compte>
+    <numero>4456</numero>
+    <libelle>Taxe sur le CA déductible</libelle>
+  </compte>
+  <compte>
+    <numero>44562</numero>
+    <libelle>TVA sur immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>44563</numero>
+    <libelle>TVA transféré par d'autres entreprises</libelle>
+  </compte>
+  <compte>
+    <numero>44566</numero>
+    <libelle>TVA déductibles sur autres biens et services</libelle>
+  </compte>
+  <compte>
+    <numero>44567</numero>
+    <libelle>Crédit de TVA à reporter</libelle>
+  </compte>
+  <compte>
+    <numero>44568</numero>
+    <libelle>Taxes assimilé à la TVA</libelle>
+  </compte>
+  <compte>
+    <numero>4457</numero>
+    <libelle>Taxe sur le CA collecté par l'entreprise</libelle>
+  </compte>
+  <compte>
+    <numero>44571</numero>
+    <libelle>TVA collectée</libelle>
+  </compte>
+  <compte>
+    <numero>44578</numero>
+    <libelle>Taxes assimilé à la TVA</libelle>
+  </compte>
+  <compte>
+    <numero>4458</numero>
+    <libelle>Taxe sur le CA à régulariser ou en attente</libelle>
+  </compte>
+  <compte>
+    <numero>44581</numero>
+    <libelle>Acomptes – Régime simplifié d’imposition</libelle>
+  </compte>
+  <compte>
+    <numero>44582</numero>
+    <libelle>Acomptes – Régime du forfait</libelle>
+  </compte>
+  <compte>
+    <numero>44583</numero>
+    <libelle>Remboursement e taxes sur le ciffre d'affaires demandé</libelle>
+  </compte>
+  <compte>
+    <numero>44584</numero>
+    <libelle>TVA récupérée d'avance</libelle>
+  </compte>
+  <compte>
+    <numero>44586</numero>
+    <libelle>Taxes sur le chiffre d'affaires sur facture non parvenues</libelle>
+  </compte>
+  <compte>
+    <numero>44587</numero>
+    <libelle>Taxes sur le chiffre d'affaires sur factures à établir</libelle>
+  </compte>
+  <compte>
+    <numero>446</numero>
+    <libelle>Obligations cautionnées</libelle>
+  </compte>
+  <compte>
+    <numero>447</numero>
+    <libelle>Autres impôts, taxes et versements assimilés</libelle>
+  </compte>
+  <compte>
+    <numero>448</numero>
+    <libelle>Etat - Charges à payer et produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>4482</numero>
+    <libelle>Charges fiscales sur congés à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4486</numero>
+    <libelle>Charges à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4487</numero>
+    <libelle>Produit à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>449</numero>
+    <libelle>Quotas d'émission à restituer à l'Etat</libelle>
+  </compte>
+  <compte>
+    <numero>45</numero>
+    <libelle>Groupe et associés</libelle>
+  </compte>
+  <compte>
+    <numero>451</numero>
+    <libelle>Dette Groupe</libelle>
+  </compte>
+  <compte>
+    <numero>455</numero>
+    <libelle>Associés - Comptes courants</libelle>
+  </compte>
+  <compte>
+    <numero>4551</numero>
+    <libelle>Associés - Comptes courants -Principal</libelle>
+  </compte>
+  <compte>
+    <numero>4558</numero>
+    <libelle>Associés - Comptes courants - Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>456</numero>
+    <libelle>Associés - Opérations sur le capital</libelle>
+  </compte>
+  <compte>
+    <numero>4561</numero>
+    <libelle>Associés - Compte d'apport en société</libelle>
+  </compte>
+  <compte>
+    <numero>45611</numero>
+    <libelle>Associés - Apports en nature</libelle>
+  </compte>
+  <compte>
+    <numero>45615</numero>
+    <libelle>Apportt en numéraire</libelle>
+  </compte>
+  <compte>
+    <numero>4562</numero>
+    <libelle>Aporteurs - Capital appelé nin versé</libelle>
+  </compte>
+  <compte>
+    <numero>45621</numero>
+    <libelle>Actionnaires - Capital souscrit et appelé non versé</libelle>
+  </compte>
+  <compte>
+    <numero>45625</numero>
+    <libelle>Associés - Capital appelé non versé</libelle>
+  </compte>
+  <compte>
+    <numero>4563</numero>
+    <libelle>Associés - Versements reçus sur auguementation de capital</libelle>
+  </compte>
+  <compte>
+    <numero>4564</numero>
+    <libelle>Associés - Versements anticipés</libelle>
+  </compte>
+  <compte>
+    <numero>4566</numero>
+    <libelle>Actionnaires défaillants</libelle>
+  </compte>
+  <compte>
+    <numero>4567</numero>
+    <libelle>Associés - Capital à rembourser</libelle>
+  </compte>
+  <compte>
+    <numero>457</numero>
+    <libelle>Associés - Dividendes à payer</libelle>
+  </compte>
+  <compte>
+    <numero>458</numero>
+    <libelle>Associés - Opérations faites en communt et en G.I.E.</libelle>
+  </compte>
+  <compte>
+    <numero>4581</numero>
+    <libelle>Associés - Opérations faites en communt et en G.I.E.- opération courante</libelle>
+  </compte>
+  <compte>
+    <numero>4588</numero>
+    <libelle>Associés - Opérations faites en communt et en G.I.E.- Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>46</numero>
+    <libelle>Débiteurs divers et créditeurs divers</libelle>
+  </compte>
+  <compte>
+    <numero>462</numero>
+    <libelle>Créance sur cessions d'immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>464</numero>
+    <libelle>Dettes sur acquisitions de valuers mobilières de placements</libelle>
+  </compte>
+  <compte>
+    <numero>465</numero>
+    <libelle>Dettes sur cessions de valuers mobilières de placements</libelle>
+  </compte>
+  <compte>
+    <numero>467</numero>
+    <libelle>Autre comptes debiteurs ou créditeurs</libelle>
+  </compte>
+  <compte>
+    <numero>468</numero>
+    <libelle>Divers - Charges à payer et produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>4686</numero>
+    <libelle>Charges à payer</libelle>
+  </compte>
+  <compte>
+    <numero>4687</numero>
+    <libelle>Produits à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>47</numero>
+    <libelle>Comptes transitoires ou d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>471</numero>
+    <libelle>Compte d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>472</numero>
+    <libelle>Compte d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>473</numero>
+    <libelle>Compte d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>474</numero>
+    <libelle>Compte d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>475</numero>
+    <libelle>Compte d'attente</libelle>
+  </compte>
+  <compte>
+    <numero>476</numero>
+    <libelle>Différence de conversion - Actif</libelle>
+  </compte>
+  <compte>
+    <numero>4761</numero>
+    <libelle>Diminutuin des créances</libelle>
+  </compte>
+  <compte>
+    <numero>4762</numero>
+    <libelle>Auguementatin des dettes</libelle>
+  </compte>
+  <compte>
+    <numero>4768</numero>
+    <libelle>Différences compensées par couverture de change</libelle>
+  </compte>
+  <compte>
+    <numero>477</numero>
+    <libelle>Différences de conversion - Passif</libelle>
+  </compte>
+  <compte>
+    <numero>4771</numero>
+    <libelle>Auguementation de créances</libelle>
+  </compte>
+  <compte>
+    <numero>4772</numero>
+    <libelle>Diminutution des dettes</libelle>
+  </compte>
+  <compte>
+    <numero>4778</numero>
+    <libelle>Différences compensées par couveture de change</libelle>
+  </compte>
+  <compte>
+    <numero>478</numero>
+    <libelle>Autres comptes transitoires</libelle>
+  </compte>
+  <compte>
+    <numero>48</numero>
+    <libelle>Comptes de régularisation</libelle>
+  </compte>
+  <compte>
+    <numero>481</numero>
+    <libelle>Charges à répartir sur plusieurs exercices</libelle>
+  </compte>
+  <compte>
+    <numero>4816</numero>
+    <libelle>Frais d'emission des emprunts</libelle>
+  </compte>
+  <compte>
+    <numero>486</numero>
+    <libelle>Charges constatées d'avance</libelle>
+  </compte>
+  <compte>
+    <numero>487</numero>
+    <libelle>Produits constatés d'avance</libelle>
+  </compte>
+  <compte>
+    <numero>488</numero>
+    <libelle>Comptes de répartition périodique des charges et des produits</libelle>
+  </compte>
+  <compte>
+    <numero>4886</numero>
+    <libelle>Comptes de répartition périodique des charges</libelle>
+  </compte>
+  <compte>
+    <numero>4887</numero>
+    <libelle>Comptes de répartition périodique des produits</libelle>
+  </compte>
+  <compte>
+    <numero>489</numero>
+    <libelle>Quotas d'émission alloués par l'Etat</libelle>
+  </compte>
+  <compte>
+    <numero>49</numero>
+    <libelle>Provisions pour dépréciation des comptes de tiers</libelle>
+  </compte>
+  <compte>
+    <numero>491</numero>
+    <libelle>Provisions pour dépréciation des comptes de clients</libelle>
+  </compte>
+  <compte>
+    <numero>495</numero>
+    <libelle>Provisions pourépréciationes comptesu groupetes associés</libelle>
+  </compte>
+  <compte>
+    <numero>4951</numero>
+    <libelle>Provisions pourépréciationes comptes du groupe</libelle>
+  </compte>
+  <compte>
+    <numero>4955</numero>
+    <libelle>Provisions pourépréciationes comptes courants des associés</libelle>
+  </compte>
+  <compte>
+    <numero>4958</numero>
+    <libelle>Provisions pour dépréciation des opérations faites en commun et en GIE</libelle>
+  </compte>
+  <compte>
+    <numero>496</numero>
+    <libelle>Provisions pour fépréciation des comptes de débiteurs divers</libelle>
+  </compte>
+  <compte>
+    <numero>4962</numero>
+    <libelle>Provisions pour dépréciation des créances sur cessions d'immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>4965</numero>
+    <libelle>Provisions pour dépréciation des créances sur cessions de valeurs mobilères de placement</libelle>
+  </compte>
+  <compte>
+    <numero>4967</numero>
+    <libelle>Provisions pour dépréciation des autres créances</libelle>
+  </compte>
+  <compte>
+    <numero>501</numero>
+    <libelle>VMP - Parts dans des entreprises liées</libelle>
+  </compte>
+  <compte>
+    <numero>502</numero>
+    <libelle>VMP - Actions propres</libelle>
+  </compte>
+  <compte>
+    <numero>503</numero>
+    <libelle>VMP - Actions</libelle>
+  </compte>
+  <compte>
+    <numero>5031</numero>
+    <libelle>Actions - Titres cotés</libelle>
+  </compte>
+  <compte>
+    <numero>5035</numero>
+    <libelle>Actions - Titres non cotés</libelle>
+  </compte>
+  <compte>
+    <numero>504</numero>
+    <libelle>VMP - Autres titres conférant un droit de propriété</libelle>
+  </compte>
+  <compte>
+    <numero>505</numero>
+    <libelle>VMP - Obligations et bons émis par la société et achetés par elle</libelle>
+  </compte>
+  <compte>
+    <numero>506</numero>
+    <libelle>VMP - Obligations</libelle>
+  </compte>
+  <compte>
+    <numero>5061</numero>
+    <libelle>Obligations - Titres cotés</libelle>
+  </compte>
+  <compte>
+    <numero>5065</numero>
+    <libelle>Obligations - Titres non cotés</libelle>
+  </compte>
+  <compte>
+    <numero>507</numero>
+    <libelle>Bons du Trésor et bons de caisse à court terme</libelle>
+  </compte>
+  <compte>
+    <numero>508</numero>
+    <libelle>VMP - Autres valeurs mobilières de placement et autres créances assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>5081</numero>
+    <libelle>Autres valeurs mobilières</libelle>
+  </compte>
+  <compte>
+    <numero>5082</numero>
+    <libelle>Bons de souscription</libelle>
+  </compte>
+  <compte>
+    <numero>5088</numero>
+    <libelle>Intérêts courus sur obligations bon valeurs assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>509</numero>
+    <libelle>Versements restant à effectuer sur valeurs mobilières de placement non libérées</libelle>
+  </compte>
+  <compte>
+    <numero>51</numero>
+    <libelle>Banques, établissements financiers et assimilés</libelle>
+  </compte>
+  <compte>
+    <numero>511</numero>
+    <libelle>Valeurs à l'encaissement</libelle>
+  </compte>
+  <compte>
+    <numero>5111</numero>
+    <libelle>Coupons échus à l'encaissement</libelle>
+  </compte>
+  <compte>
+    <numero>5112</numero>
+    <libelle>Chèques à encaissser</libelle>
+  </compte>
+  <compte>
+    <numero>5113</numero>
+    <libelle>Effet à l'encaissement</libelle>
+  </compte>
+  <compte>
+    <numero>5114</numero>
+    <libelle>Effet à l'escompte</libelle>
+  </compte>
+  <compte>
+    <numero>512</numero>
+    <libelle>Banques</libelle>
+  </compte>
+  <compte>
+    <numero>5121</numero>
+    <libelle>Comptes en monnaie nationale</libelle>
+  </compte>
+  <compte>
+    <numero>5124</numero>
+    <libelle>Comptes en devises</libelle>
+  </compte>
+  <compte>
+    <numero>514</numero>
+    <libelle>Chèques postaux</libelle>
+  </compte>
+  <compte>
+    <numero>515</numero>
+    <libelle>Caisses du Trésor et des établissements publics</libelle>
+  </compte>
+  <compte>
+    <numero>516</numero>
+    <libelle>Sociétés de bourse</libelle>
+  </compte>
+  <compte>
+    <numero>517</numero>
+    <libelle>Autres organismes financiers</libelle>
+  </compte>
+  <compte>
+    <numero>518</numero>
+    <libelle>Intérêts courus</libelle>
+  </compte>
+  <compte>
+    <numero>5181</numero>
+    <libelle>Intérêts courus à payer</libelle>
+  </compte>
+  <compte>
+    <numero>5188</numero>
+    <libelle>Intérêts courus à recevoir</libelle>
+  </compte>
+  <compte>
+    <numero>519</numero>
+    <libelle>Concours bancaires courants</libelle>
+  </compte>
+  <compte>
+    <numero>5191</numero>
+    <libelle>Crédit de mobilisation de créances commerciales (CMCC)</libelle>
+  </compte>
+  <compte>
+    <numero>5193</numero>
+    <libelle>Mobilisation de créances nées à l'étranger</libelle>
+  </compte>
+  <compte>
+    <numero>5198</numero>
+    <libelle>Inérêts courus sur concours bancaires courants</libelle>
+  </compte>
+  <compte>
+    <numero>52</numero>
+    <libelle>Instrument de tésorerie</libelle>
+  </compte>
+  <compte>
+    <numero>53</numero>
+    <libelle>Caisse</libelle>
+  </compte>
+  <compte>
+    <numero>531</numero>
+    <libelle>Caisse siège social</libelle>
+  </compte>
+  <compte>
+    <numero>5311</numero>
+    <libelle>Caisse en monnaie nationale</libelle>
+  </compte>
+  <compte>
+    <numero>5314</numero>
+    <libelle>Caisse en devises</libelle>
+  </compte>
+  <compte>
+    <numero>532</numero>
+    <libelle>Caisse succursale (ou usine) A</libelle>
+  </compte>
+  <compte>
+    <numero>533</numero>
+    <libelle>Caisse succursale (ou usine) B</libelle>
+  </compte>
+  <compte>
+    <numero>54</numero>
+    <libelle>Régies d'avance et accéditifs</libelle>
+  </compte>
+  <compte>
+    <numero>58</numero>
+    <libelle>Virementsnternes</libelle>
+  </compte>
+  <compte>
+    <numero>59</numero>
+    <libelle>Provisions pour dépréciation des comptes financiers</libelle>
+  </compte>
+  <compte>
+    <numero>5903</numero>
+    <libelle>Provisions pour dépréciation des actions</libelle>
+  </compte>
+  <compte>
+    <numero>5904</numero>
+    <libelle>Provisions pour dépréciation autres titres conférant un droit de propriété</libelle>
+  </compte>
+  <compte>
+    <numero>5906</numero>
+    <libelle>Provisions pour dépréciation des obligations</libelle>
+  </compte>
+  <compte>
+    <numero>5908</numero>
+    <libelle>Provisions pour dépréciation des autres VMP</libelle>
+  </compte>
+  <compte>
+    <numero>601</numero>
+    <libelle>Achats stockés - Matières premières et fournitures</libelle>
+  </compte>
+  <compte>
+    <numero>602</numero>
+    <libelle>Achats stockés - Autres approvisionnements</libelle>
+  </compte>
+  <compte>
+    <numero>6021</numero>
+    <libelle>Achats stockés - Matières et consommables</libelle>
+  </compte>
+  <compte>
+    <numero>6022</numero>
+    <libelle>Achats stockés - Fournitures et consommables</libelle>
+  </compte>
+  <compte>
+    <numero>60221</numero>
+    <libelle>Achats stockés - Combustibles</libelle>
+  </compte>
+  <compte>
+    <numero>60222</numero>
+    <libelle>Achats stockés - Produits d'entretien</libelle>
+  </compte>
+  <compte>
+    <numero>60223</numero>
+    <libelle>Achats stockés - Fournitures d'atelier et d'usine</libelle>
+  </compte>
+  <compte>
+    <numero>60224</numero>
+    <libelle>Achats stockés - Fournitures de magasin</libelle>
+  </compte>
+  <compte>
+    <numero>60225</numero>
+    <libelle>Achats stockés - Fournitures de bureau</libelle>
+  </compte>
+  <compte>
+    <numero>6026</numero>
+    <libelle>Achats stockés - Emballages</libelle>
+  </compte>
+  <compte>
+    <numero>60261</numero>
+    <libelle>Achats stockés - Emballages perdus</libelle>
+  </compte>
+  <compte>
+    <numero>60265</numero>
+    <libelle>Achats stockés - Emballages récupérables non identifiables</libelle>
+  </compte>
+  <compte>
+    <numero>60267</numero>
+    <libelle>Achats stockés - Emballages à usage mixte</libelle>
+  </compte>
+  <compte>
+    <numero>603</numero>
+    <libelle>Variations des stocks approvisionnements et marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>6031</numero>
+    <libelle>Variations des stocks matières premières et fournitures</libelle>
+  </compte>
+  <compte>
+    <numero>6032</numero>
+    <libelle>Variations des stocks des autres approvisionnements</libelle>
+  </compte>
+  <compte>
+    <numero>6037</numero>
+    <libelle>Variations des stocks de marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>604</numero>
+    <libelle>Achats d'études et prestations de services</libelle>
+  </compte>
+  <compte>
+    <numero>605</numero>
+    <libelle>Achats de matériel, équipements et travaux</libelle>
+  </compte>
+  <compte>
+    <numero>606</numero>
+    <libelle>Achats non stockés de matière et fournitures</libelle>
+  </compte>
+  <compte>
+    <numero>6061</numero>
+    <libelle>Achats de carburant</libelle>
+  </compte>
+  <compte>
+    <numero>6063</numero>
+    <libelle>Fournitures d'entretien et de petit équipement</libelle>
+  </compte>
+  <compte>
+    <numero>6064</numero>
+    <libelle>Fournitures administratives</libelle>
+  </compte>
+  <compte>
+    <numero>6068</numero>
+    <libelle>Autres matières et fournitures</libelle>
+  </compte>
+  <compte>
+    <numero>607</numero>
+    <libelle>Achats de marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>608</numero>
+    <libelle>(Compte réservé, le cas échéant, à la récapitulation des frais accessoires incorporés aux achats)</libelle>
+  </compte>
+  <compte>
+    <numero>609</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur achats</libelle>
+  </compte>
+  <compte>
+    <numero>6091</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur achats de matière première et fournitures</libelle>
+  </compte>
+  <compte>
+    <numero>6092</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur achats d'autres approviseonnements stockés</libelle>
+  </compte>
+  <compte>
+    <numero>6094</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur achats d'études et de prestations de services</libelle>
+  </compte>
+  <compte>
+    <numero>6095</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur achats matériel équipement et travaux</libelle>
+  </compte>
+  <compte>
+    <numero>6096</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur approvsionnements non stockés</libelle>
+  </compte>
+  <compte>
+    <numero>6097</numero>
+    <libelle>Rabais, remises et ristournes de marchandisee</libelle>
+  </compte>
+  <compte>
+    <numero>6098</numero>
+    <libelle>Rabais, remises et ristournes non affectés</libelle>
+  </compte>
+  <compte>
+    <numero>61</numero>
+    <libelle>Services extérieurs</libelle>
+  </compte>
+  <compte>
+    <numero>611</numero>
+    <libelle>Sous-traitance générale</libelle>
+  </compte>
+  <compte>
+    <numero>612</numero>
+    <libelle>Redevances de crédit-bail</libelle>
+  </compte>
+  <compte>
+    <numero>6122</numero>
+    <libelle>Redevances de crédit-bail mobilier</libelle>
+  </compte>
+  <compte>
+    <numero>6125</numero>
+    <libelle>Redevances de crédit-bail immobilier</libelle>
+  </compte>
+  <compte>
+    <numero>613</numero>
+    <libelle>Locations</libelle>
+  </compte>
+  <compte>
+    <numero>6132</numero>
+    <libelle>Locations immobilière</libelle>
+  </compte>
+  <compte>
+    <numero>6135</numero>
+    <libelle>Locations immobilière mobilière</libelle>
+  </compte>
+  <compte>
+    <numero>6136</numero>
+    <libelle>Malis sur emballage</libelle>
+  </compte>
+  <compte>
+    <numero>614</numero>
+    <libelle>Charges locatives et de copropriété</libelle>
+  </compte>
+  <compte>
+    <numero>615</numero>
+    <libelle>Entretien et réparations</libelle>
+  </compte>
+  <compte>
+    <numero>6152</numero>
+    <libelle>Entretien et réparations sur biens immobiliers</libelle>
+  </compte>
+  <compte>
+    <numero>6155</numero>
+    <libelle>Entretien et réparations sur biens mobiliers</libelle>
+  </compte>
+  <compte>
+    <numero>6156</numero>
+    <libelle>Maintenance</libelle>
+  </compte>
+  <compte>
+    <numero>616</numero>
+    <libelle>Primes d'assurances</libelle>
+  </compte>
+  <compte>
+    <numero>6161</numero>
+    <libelle>Primes d'assurances - multirisques</libelle>
+  </compte>
+  <compte>
+    <numero>6162</numero>
+    <libelle>Primes d'assurances - assurances obligatoires dommage construction</libelle>
+  </compte>
+  <compte>
+    <numero>6163</numero>
+    <libelle>Primes d'assurances - transport</libelle>
+  </compte>
+  <compte>
+    <numero>61636</numero>
+    <libelle>Primes d'assurances - transport sur achats</libelle>
+  </compte>
+  <compte>
+    <numero>61637</numero>
+    <libelle>Primes d'assurances - transport sur ventes</libelle>
+  </compte>
+  <compte>
+    <numero>61638</numero>
+    <libelle>Primes d'assurances - sur autres biens</libelle>
+  </compte>
+  <compte>
+    <numero>6164</numero>
+    <libelle>Primes d'assurances - risques d'exploitations</libelle>
+  </compte>
+  <compte>
+    <numero>6165</numero>
+    <libelle>Primes d'assurances - insolvabilité clients</libelle>
+  </compte>
+  <compte>
+    <numero>617</numero>
+    <libelle>Etudes et recherches</libelle>
+  </compte>
+  <compte>
+    <numero>618</numero>
+    <libelle>Divers</libelle>
+  </compte>
+  <compte>
+    <numero>6181</numero>
+    <libelle>Documentaion générale</libelle>
+  </compte>
+  <compte>
+    <numero>6183</numero>
+    <libelle>Documentation technique</libelle>
+  </compte>
+  <compte>
+    <numero>6185</numero>
+    <libelle>Frais de colloques, séminaires, conférences</libelle>
+  </compte>
+  <compte>
+    <numero>619</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur services extérieurs</libelle>
+  </compte>
+  <compte>
+    <numero>62</numero>
+    <libelle>Autres services extérieurs</libelle>
+  </compte>
+  <compte>
+    <numero>621</numero>
+    <libelle>Personnel extérieur à l'entreprise</libelle>
+  </compte>
+  <compte>
+    <numero>6211</numero>
+    <libelle>Personnel intérimaire</libelle>
+  </compte>
+  <compte>
+    <numero>6214</numero>
+    <libelle>Personnel détaché ou prêtée à l'entreprise</libelle>
+  </compte>
+  <compte>
+    <numero>622</numero>
+    <libelle>Rémunérations d'intermédiaires et honoraires</libelle>
+  </compte>
+  <compte>
+    <numero>6221</numero>
+    <libelle>Commission et courtage sur achats</libelle>
+  </compte>
+  <compte>
+    <numero>6222</numero>
+    <libelle>Commission et courtage sur ventes</libelle>
+  </compte>
+  <compte>
+    <numero>6224</numero>
+    <libelle>Rénumeration des transitaires</libelle>
+  </compte>
+  <compte>
+    <numero>6225</numero>
+    <libelle>Rémunérations d'affactirage</libelle>
+  </compte>
+  <compte>
+    <numero>6226</numero>
+    <libelle>Honoraires</libelle>
+  </compte>
+  <compte>
+    <numero>6227</numero>
+    <libelle>Frais d'actes et de contentieux</libelle>
+  </compte>
+  <compte>
+    <numero>6228</numero>
+    <libelle>Divers</libelle>
+  </compte>
+  <compte>
+    <numero>623</numero>
+    <libelle>Publicité, publications, relations publiques</libelle>
+  </compte>
+  <compte>
+    <numero>6231</numero>
+    <libelle>Annonces et insertions</libelle>
+  </compte>
+  <compte>
+    <numero>6232</numero>
+    <libelle>Echantillons</libelle>
+  </compte>
+  <compte>
+    <numero>6233</numero>
+    <libelle>Foire et expositions</libelle>
+  </compte>
+  <compte>
+    <numero>6234</numero>
+    <libelle>Cadeeaux à la clientèle</libelle>
+  </compte>
+  <compte>
+    <numero>6235</numero>
+    <libelle>Primes</libelle>
+  </compte>
+  <compte>
+    <numero>6236</numero>
+    <libelle>Catalogues et imprimés</libelle>
+  </compte>
+  <compte>
+    <numero>6237</numero>
+    <libelle>Publications</libelle>
+  </compte>
+  <compte>
+    <numero>6238</numero>
+    <libelle>Divers (pourboires, dont courant)</libelle>
+  </compte>
+  <compte>
+    <numero>624</numero>
+    <libelle>Transports de biens et transports collectifs du personnel</libelle>
+  </compte>
+  <compte>
+    <numero>6241</numero>
+    <libelle>Transports sur achats</libelle>
+  </compte>
+  <compte>
+    <numero>6242</numero>
+    <libelle>Transports sur ventes</libelle>
+  </compte>
+  <compte>
+    <numero>6243</numero>
+    <libelle>Transports entre établissements ou chantiers</libelle>
+  </compte>
+  <compte>
+    <numero>6244</numero>
+    <libelle>Transports administratifs</libelle>
+  </compte>
+  <compte>
+    <numero>6247</numero>
+    <libelle>Transports collectifs du personnel</libelle>
+  </compte>
+  <compte>
+    <numero>6248</numero>
+    <libelle>Divers</libelle>
+  </compte>
+  <compte>
+    <numero>625</numero>
+    <libelle>Déplacements, missions et réceptions</libelle>
+  </compte>
+  <compte>
+    <numero>6251</numero>
+    <libelle>Voyages et déplacements</libelle>
+  </compte>
+  <compte>
+    <numero>6255</numero>
+    <libelle>Frais de démenagement</libelle>
+  </compte>
+  <compte>
+    <numero>6256</numero>
+    <libelle>Missions</libelle>
+  </compte>
+  <compte>
+    <numero>6257</numero>
+    <libelle>Réceptions</libelle>
+  </compte>
+  <compte>
+    <numero>626</numero>
+    <libelle>Frais postaux et de télécommunications</libelle>
+  </compte>
+  <compte>
+    <numero>627</numero>
+    <libelle>Services bancaires et assimilés</libelle>
+  </compte>
+  <compte>
+    <numero>6271</numero>
+    <libelle>Frais sur titres (achats, ventes, gardes)</libelle>
+  </compte>
+  <compte>
+    <numero>6272</numero>
+    <libelle>Commission et frais sur emission d'emprunts</libelle>
+  </compte>
+  <compte>
+    <numero>6275</numero>
+    <libelle>Frais sur effets</libelle>
+  </compte>
+  <compte>
+    <numero>6276</numero>
+    <libelle>Location de coffres</libelle>
+  </compte>
+  <compte>
+    <numero>6278</numero>
+    <libelle>Autres frais et commissions sur prestations de services</libelle>
+  </compte>
+  <compte>
+    <numero>628</numero>
+    <libelle>Divers</libelle>
+  </compte>
+  <compte>
+    <numero>6281</numero>
+    <libelle>Concours divers (cotisations)</libelle>
+  </compte>
+  <compte>
+    <numero>6284</numero>
+    <libelle>Frais de recrutement de personnel</libelle>
+  </compte>
+  <compte>
+    <numero>629</numero>
+    <libelle>Rabais, remises et ristournes obtenus sur autres services extérieurs</libelle>
+  </compte>
+  <compte>
+    <numero>63</numero>
+    <libelle>Impôts, taxes et versements assimilés</libelle>
+  </compte>
+  <compte>
+    <numero>631</numero>
+    <libelle>Impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)</libelle>
+  </compte>
+  <compte>
+    <numero>6311</numero>
+    <libelle>Taxes sur les salaires</libelle>
+  </compte>
+  <compte>
+    <numero>6312</numero>
+    <libelle>Taxe d'apprentissage</libelle>
+  </compte>
+  <compte>
+    <numero>6313</numero>
+    <libelle>Participations des employeurs à la formation professionnelle continue</libelle>
+  </compte>
+  <compte>
+    <numero>6314</numero>
+    <libelle>Cotisation pour défaut d'investissement obligatoire dans la construction</libelle>
+  </compte>
+  <compte>
+    <numero>6318</numero>
+    <libelle>Autres</libelle>
+  </compte>
+  <compte>
+    <numero>633</numero>
+    <libelle>Impôts, taxes et versements assimilés sur rémunérations (autres organismes)</libelle>
+  </compte>
+  <compte>
+    <numero>6331</numero>
+    <libelle>Versement de transport</libelle>
+  </compte>
+  <compte>
+    <numero>6332</numero>
+    <libelle>Allocation logement</libelle>
+  </compte>
+  <compte>
+    <numero>6333</numero>
+    <libelle>Participations des employeurs à la formations professionnelle continue</libelle>
+  </compte>
+  <compte>
+    <numero>6334</numero>
+    <libelle>Participation des employeurs à l'effort de construction</libelle>
+  </compte>
+  <compte>
+    <numero>6335</numero>
+    <libelle>Versements libératoire ouvrant droit à l'exonération de la taxe d'apprentissage</libelle>
+  </compte>
+  <compte>
+    <numero>6338</numero>
+    <libelle>Autres</libelle>
+  </compte>
+  <compte>
+    <numero>635</numero>
+    <libelle>Autres impôts, taxes et versements assimilés (administrations des impôts)</libelle>
+  </compte>
+  <compte>
+    <numero>6351</numero>
+    <libelle>Impôts directs (sauf impôts dur les bénéfices)</libelle>
+  </compte>
+  <compte>
+    <numero>63511</numero>
+    <libelle>Taxe professionnelle</libelle>
+  </compte>
+  <compte>
+    <numero>63512</numero>
+    <libelle>Taxe foncière</libelle>
+  </compte>
+  <compte>
+    <numero>63513</numero>
+    <libelle>Autres impôts locaux</libelle>
+  </compte>
+  <compte>
+    <numero>63514</numero>
+    <libelle>Taxe sur les véhicules de sociétés</libelle>
+  </compte>
+  <compte>
+    <numero>6352</numero>
+    <libelle>Taxe sur le chiffre d'affaire non récupérables</libelle>
+  </compte>
+  <compte>
+    <numero>6353</numero>
+    <libelle>Impôts indirects</libelle>
+  </compte>
+  <compte>
+    <numero>6354</numero>
+    <libelle>Droit d'enregistrement et de timbre</libelle>
+  </compte>
+  <compte>
+    <numero>63541</numero>
+    <libelle>Droits de mutation</libelle>
+  </compte>
+  <compte>
+    <numero>6358</numero>
+    <libelle>Autres droits</libelle>
+  </compte>
+  <compte>
+    <numero>637</numero>
+    <libelle>Autres impôts, taxes et versements assimilés (autres organismes)</libelle>
+  </compte>
+  <compte>
+    <numero>6371</numero>
+    <libelle>Contribution sociale de solidarité à la charge des osciétés</libelle>
+  </compte>
+  <compte>
+    <numero>6372</numero>
+    <libelle>Taxes perçues par les organismes publics internationaux</libelle>
+  </compte>
+  <compte>
+    <numero>6374</numero>
+    <libelle>Impôts et taxes exigibles à l'étranger</libelle>
+  </compte>
+  <compte>
+    <numero>6378</numero>
+    <libelle>Taxex diverses</libelle>
+  </compte>
+  <compte>
+    <numero>64</numero>
+    <libelle>Charges de personnel</libelle>
+  </compte>
+  <compte>
+    <numero>641</numero>
+    <libelle>Rémunérations du personnel</libelle>
+  </compte>
+  <compte>
+    <numero>6411</numero>
+    <libelle>Salaires, appointements</libelle>
+  </compte>
+  <compte>
+    <numero>6412</numero>
+    <libelle>Congés payés</libelle>
+  </compte>
+  <compte>
+    <numero>6413</numero>
+    <libelle>Primes et gratifications</libelle>
+  </compte>
+  <compte>
+    <numero>6414</numero>
+    <libelle>Indemnités et avantages divers</libelle>
+  </compte>
+  <compte>
+    <numero>6415</numero>
+    <libelle>Supplément famillial</libelle>
+  </compte>
+  <compte>
+    <numero>644</numero>
+    <libelle>Rémunération du travail de l'exploitant</libelle>
+  </compte>
+  <compte>
+    <numero>645</numero>
+    <libelle>Charges de sécurité sociale et de prévoyance</libelle>
+  </compte>
+  <compte>
+    <numero>6451</numero>
+    <libelle>Cotisations à l'URSSAF</libelle>
+  </compte>
+  <compte>
+    <numero>6452</numero>
+    <libelle>Cotisations aux mutuelles</libelle>
+  </compte>
+  <compte>
+    <numero>6453</numero>
+    <libelle>Cotisations aux caisses de retraites</libelle>
+  </compte>
+  <compte>
+    <numero>6454</numero>
+    <libelle>Cotisations aux ASSEDIC</libelle>
+  </compte>
+  <compte>
+    <numero>6458</numero>
+    <libelle>Cotisations aux autres organismes sociaux</libelle>
+  </compte>
+  <compte>
+    <numero>646</numero>
+    <libelle>Cotisations sociales personnelles de l'exploitant</libelle>
+  </compte>
+  <compte>
+    <numero>647</numero>
+    <libelle>Autres charges sociales</libelle>
+  </compte>
+  <compte>
+    <numero>6471</numero>
+    <libelle>Prestations directes</libelle>
+  </compte>
+  <compte>
+    <numero>6472</numero>
+    <libelle>Versements aux comités d'entreprises et d'établissements</libelle>
+  </compte>
+  <compte>
+    <numero>6473</numero>
+    <libelle>Versements aux comités d'hygiène et de sécurité</libelle>
+  </compte>
+  <compte>
+    <numero>6474</numero>
+    <libelle>Versements aux autres œuvres sociales</libelle>
+  </compte>
+  <compte>
+    <numero>6475</numero>
+    <libelle>Médecine du travail, pharmacie</libelle>
+  </compte>
+  <compte>
+    <numero>648</numero>
+    <libelle>Autres charges de personnel</libelle>
+  </compte>
+  <compte>
+    <numero>65</numero>
+    <libelle>Autres charges de gestion courante</libelle>
+  </compte>
+  <compte>
+    <numero>651</numero>
+    <libelle>Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>6511</numero>
+    <libelle>Redevances pour concessions, brevets, licences, marques, procédés, logiciels</libelle>
+  </compte>
+  <compte>
+    <numero>6516</numero>
+    <libelle>Droits d'auteur et de reproduction</libelle>
+  </compte>
+  <compte>
+    <numero>6518</numero>
+    <libelle>Autres droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>653</numero>
+    <libelle>Jetons de présence</libelle>
+  </compte>
+  <compte>
+    <numero>654</numero>
+    <libelle>Pertes sur créances irrécouvrables</libelle>
+  </compte>
+  <compte>
+    <numero>6541</numero>
+    <libelle>Pertes sur créances irrécouvrables de l'exercice</libelle>
+  </compte>
+  <compte>
+    <numero>6544</numero>
+    <libelle>Pertes sur créances irrécouvrables des exercice antérieurs</libelle>
+  </compte>
+  <compte>
+    <numero>655</numero>
+    <libelle>Quote-part de résultat sur opérations faites en commun</libelle>
+  </compte>
+  <compte>
+    <numero>6551</numero>
+    <libelle>Quote-part de bénéfice transférée (comptabilité du gérant)</libelle>
+  </compte>
+  <compte>
+    <numero>6555</numero>
+    <libelle>Quote-part de perte supportée (comptabilité des associés non gérants)</libelle>
+  </compte>
+  <compte>
+    <numero>658</numero>
+    <libelle>Charges diverses de gestion courante</libelle>
+  </compte>
+  <compte>
+    <numero>66</numero>
+    <libelle>Charges financières</libelle>
+  </compte>
+  <compte>
+    <numero>661</numero>
+    <libelle>Charges d'intérêts</libelle>
+  </compte>
+  <compte>
+    <numero>6611</numero>
+    <libelle>Intérêts des emprunts et dettes</libelle>
+  </compte>
+  <compte>
+    <numero>66116</numero>
+    <libelle>Intérêts des emprunts et dettes assimilées</libelle>
+  </compte>
+  <compte>
+    <numero>66117</numero>
+    <libelle>Intérêts des dettes rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>6615</numero>
+    <libelle>Intérêts des comptes courants et des dépôts créditeurs</libelle>
+  </compte>
+  <compte>
+    <numero>6616</numero>
+    <libelle>Intérêts bancaires et sur opérations de financement (escompte,...)</libelle>
+  </compte>
+  <compte>
+    <numero>6617</numero>
+    <libelle>Intérêts des obligations cautionnées</libelle>
+  </compte>
+  <compte>
+    <numero>6618</numero>
+    <libelle>Intérêts des autres dettes</libelle>
+  </compte>
+  <compte>
+    <numero>66181</numero>
+    <libelle>Intérêts des autres dettes commerciales</libelle>
+  </compte>
+  <compte>
+    <numero>66188</numero>
+    <libelle>Intérêts des dettes diverses</libelle>
+  </compte>
+  <compte>
+    <numero>664</numero>
+    <libelle>Pertes sur créances liées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>665</numero>
+    <libelle>Escomptes accordés</libelle>
+  </compte>
+  <compte>
+    <numero>666</numero>
+    <libelle>Pertes de change</libelle>
+  </compte>
+  <compte>
+    <numero>667</numero>
+    <libelle>Charges nettes sur cessions de valeurs mobilières de placement</libelle>
+  </compte>
+  <compte>
+    <numero>668</numero>
+    <libelle>Autres charges financières</libelle>
+  </compte>
+  <compte>
+    <numero>67</numero>
+    <libelle>Charges exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>671</numero>
+    <libelle>Charges exceptionnelles sur opérations de gestion</libelle>
+  </compte>
+  <compte>
+    <numero>6711</numero>
+    <libelle>Pénalités sur marchés (et dédits payés sur achats et ventes)</libelle>
+  </compte>
+  <compte>
+    <numero>6712</numero>
+    <libelle>Pénalités, amendes fiscales et pénales</libelle>
+  </compte>
+  <compte>
+    <numero>6713</numero>
+    <libelle>Dons, libéralités</libelle>
+  </compte>
+  <compte>
+    <numero>6714</numero>
+    <libelle>Créances devenues irrécouvrables dans l'exercice</libelle>
+  </compte>
+  <compte>
+    <numero>6715</numero>
+    <libelle>Subventions accordées</libelle>
+  </compte>
+  <compte>
+    <numero>6717</numero>
+    <libelle>Rappel d'impôts (autres qu'impôts sur les bénéfices)</libelle>
+  </compte>
+  <compte>
+    <numero>6718</numero>
+    <libelle>Autres charges exceptionnelles sur opérations de gestion</libelle>
+  </compte>
+  <compte>
+    <numero>672</numero>
+    <libelle>(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices antérieurs)</libelle>
+  </compte>
+  <compte>
+    <numero>675</numero>
+    <libelle>Valeurs comptables des éléments d'actif cédés</libelle>
+  </compte>
+  <compte>
+    <numero>6751</numero>
+    <libelle>Valeurs comptables des éléments d'actif cédés - Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>6752</numero>
+    <libelle>Valeurs comptables des éléments d'actif cédés - immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>6756</numero>
+    <libelle>Valeurs comptables des éléments d'actif cédés - Immobilissation financières</libelle>
+  </compte>
+  <compte>
+    <numero>678</numero>
+    <libelle>Autres charges exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>6781</numero>
+    <libelle>Malis provenant de clauses d'indexation</libelle>
+  </compte>
+  <compte>
+    <numero>6782</numero>
+    <libelle>Lots</libelle>
+  </compte>
+  <compte>
+    <numero>6783</numero>
+    <libelle>Malis provenant du rachat par l'entreprise d'actions et obligations émises par elle-même</libelle>
+  </compte>
+  <compte>
+    <numero>6788</numero>
+    <libelle>Charges exceptionnelles diverses</libelle>
+  </compte>
+  <compte>
+    <numero>68</numero>
+    <libelle>Dotations aux amortissements et aux provisions</libelle>
+  </compte>
+  <compte>
+    <numero>681</numero>
+    <libelle>Dotations aux amortissements et aux provisions - Charges d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>6811</numero>
+    <libelle>Dotations aux amortissements sur immobilisations incorporelles et corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>68111</numero>
+    <libelle>Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>68112</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>6812</numero>
+    <libelle>Dotations aux amortissements des charges d'exploitation à répartir</libelle>
+  </compte>
+  <compte>
+    <numero>6815</numero>
+    <libelle>Dotations aux provisions pour risques et charges d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>6816</numero>
+    <libelle>Dotations aux dépréciations des immobilisations incorporelles et corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>68161</numero>
+    <libelle>Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>68162</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>6817</numero>
+    <libelle>Dotations aux provisions pour dépréciation des actifs circulants</libelle>
+  </compte>
+  <compte>
+    <numero>68173</numero>
+    <libelle>Stocks et en-cours</libelle>
+  </compte>
+  <compte>
+    <numero>68174</numero>
+    <libelle>Créances</libelle>
+  </compte>
+  <compte>
+    <numero>686</numero>
+    <libelle>Dotations aux amortissements et aux provisions - Charges financières</libelle>
+  </compte>
+  <compte>
+    <numero>6861</numero>
+    <libelle>Dotations aux amortissements des primes de remboursements des obligations</libelle>
+  </compte>
+  <compte>
+    <numero>6865</numero>
+    <libelle>Dotations aux provisions pour risques et charges financiers</libelle>
+  </compte>
+  <compte>
+    <numero>6866</numero>
+    <libelle>Dotations aux provisions pour dépréciation des éléments financiers</libelle>
+  </compte>
+  <compte>
+    <numero>68662</numero>
+    <libelle>Immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>68665</numero>
+    <libelle>Valeurs mobilières de placement</libelle>
+  </compte>
+  <compte>
+    <numero>6868</numero>
+    <libelle>Auters dotations</libelle>
+  </compte>
+  <compte>
+    <numero>687</numero>
+    <libelle>Dotations aux amortissements et aux provisions - Charges exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>6871</numero>
+    <libelle>Dotations aux amortissements des immobilisations exceptionnels des immobilisations</libelle>
+  </compte>
+  <compte>
+    <numero>6872</numero>
+    <libelle>Dotations aux provisions réglementées (immobilisations)</libelle>
+  </compte>
+  <compte>
+    <numero>6873</numero>
+    <libelle>Dotations aux provisions réglementées (stocks)</libelle>
+  </compte>
+  <compte>
+    <numero>6874</numero>
+    <libelle>Dotations aux provisions réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>6875</numero>
+    <libelle>Dotations aux provisions pour risques et charges exceptionnels</libelle>
+  </compte>
+  <compte>
+    <numero>6876</numero>
+    <libelle>Dotations aux provisions pour dépréciations exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>69</numero>
+    <libelle>Participation des salariés - impôts sur les bénéfices et assimilés</libelle>
+  </compte>
+  <compte>
+    <numero>691</numero>
+    <libelle>Participation des salariés aux résultats</libelle>
+  </compte>
+  <compte>
+    <numero>695</numero>
+    <libelle>Impôts sur les bénéfices</libelle>
+  </compte>
+  <compte>
+    <numero>6951</numero>
+    <libelle>Impôts dus en France</libelle>
+  </compte>
+  <compte>
+    <numero>6952</numero>
+    <libelle>Contribution additionnelle à l'impôt sur les bénéfices</libelle>
+  </compte>
+  <compte>
+    <numero>6954</numero>
+    <libelle>Impôts dus à l'étranger</libelle>
+  </compte>
+  <compte>
+    <numero>696</numero>
+    <libelle>Suppléments d'impôt sur les sociétés liés aux distributions</libelle>
+  </compte>
+  <compte>
+    <numero>697</numero>
+    <libelle>Imposition forfaitaire annuelle des sociétés</libelle>
+  </compte>
+  <compte>
+    <numero>698</numero>
+    <libelle>Intégration fiscale</libelle>
+  </compte>
+  <compte>
+    <numero>6981</numero>
+    <libelle>Intégration fiscale - Charges</libelle>
+  </compte>
+  <compte>
+    <numero>6989</numero>
+    <libelle>Intégration fiscale - Produits</libelle>
+  </compte>
+  <compte>
+    <numero>699</numero>
+    <libelle>Produits - Reports en arrière des déficits</libelle>
+  </compte>
+  <compte>
+    <numero>701</numero>
+    <libelle>Ventes de produits finis</libelle>
+  </compte>
+  <compte>
+    <numero>702</numero>
+    <libelle>Ventes de produits intermédiaires</libelle>
+  </compte>
+  <compte>
+    <numero>703</numero>
+    <libelle>Ventes de produits résiduels</libelle>
+  </compte>
+  <compte>
+    <numero>704</numero>
+    <libelle>Travaux</libelle>
+  </compte>
+  <compte>
+    <numero>705</numero>
+    <libelle>Etudes</libelle>
+  </compte>
+  <compte>
+    <numero>706</numero>
+    <libelle>Prestations de services</libelle>
+  </compte>
+  <compte>
+    <numero>707</numero>
+    <libelle>Ventes de marchandises</libelle>
+  </compte>
+  <compte>
+    <numero>708</numero>
+    <libelle>Produits des activités annexes</libelle>
+  </compte>
+  <compte>
+    <numero>7081</numero>
+    <libelle>Produits des services exploités dans l'intérêts du personnel</libelle>
+  </compte>
+  <compte>
+    <numero>7082</numero>
+    <libelle>Commissions et courtages</libelle>
+  </compte>
+  <compte>
+    <numero>7083</numero>
+    <libelle>Locations diverses</libelle>
+  </compte>
+  <compte>
+    <numero>7084</numero>
+    <libelle>Mise à disposition de personnel facturée</libelle>
+  </compte>
+  <compte>
+    <numero>7085</numero>
+    <libelle>Port et frais accesoires facturés</libelle>
+  </compte>
+  <compte>
+    <numero>7086</numero>
+    <libelle>Bonis sur reprises d'emballages consignés</libelle>
+  </compte>
+  <compte>
+    <numero>7087</numero>
+    <libelle>Bonifications obtenues des clients et primes sur ventes</libelle>
+  </compte>
+  <compte>
+    <numero>7088</numero>
+    <libelle>Autres produits des activités annexes</libelle>
+  </compte>
+  <compte>
+    <numero>709</numero>
+    <libelle>Rabais, remises et ristournes accordés par l'entreprise</libelle>
+  </compte>
+  <compte>
+    <numero>7091</numero>
+    <libelle>Rabais, remises et ristournes accordés sur ventes de produits finis</libelle>
+  </compte>
+  <compte>
+    <numero>7092</numero>
+    <libelle>Rabais, remises et ristournes accordés sur ventes de produits intermediaires</libelle>
+  </compte>
+  <compte>
+    <numero>7094</numero>
+    <libelle>Rabais, remises et ristournes accordés sur travaux</libelle>
+  </compte>
+  <compte>
+    <numero>7095</numero>
+    <libelle>Rabais, remises et ristournes accordés sur études</libelle>
+  </compte>
+  <compte>
+    <numero>7096</numero>
+    <libelle>Rabais, remises et ristournes accordés sur prestations de services</libelle>
+  </compte>
+  <compte>
+    <numero>7097</numero>
+    <libelle>Rabais, remises et ristournes accordés sur ventes de marchandies</libelle>
+  </compte>
+  <compte>
+    <numero>7098</numero>
+    <libelle>Rabais, remises et ristournes accordés sur produits des activités annexes</libelle>
+  </compte>
+  <compte>
+    <numero>71</numero>
+    <libelle>Production stockée (ou déstockage)</libelle>
+  </compte>
+  <compte>
+    <numero>713</numero>
+    <libelle>Variation des stocks (en-cours de production, produits)</libelle>
+  </compte>
+  <compte>
+    <numero>7133</numero>
+    <libelle>Variation des en-cours de production de biens</libelle>
+  </compte>
+  <compte>
+    <numero>71331</numero>
+    <libelle>Produits en cours</libelle>
+  </compte>
+  <compte>
+    <numero>71335</numero>
+    <libelle>Travaux en cours</libelle>
+  </compte>
+  <compte>
+    <numero>7134</numero>
+    <libelle>Variation des en-cours de production de services</libelle>
+  </compte>
+  <compte>
+    <numero>71341</numero>
+    <libelle>Etudes en cours</libelle>
+  </compte>
+  <compte>
+    <numero>71345</numero>
+    <libelle>Prestations de services en cours</libelle>
+  </compte>
+  <compte>
+    <numero>7135</numero>
+    <libelle>Variation des stocks de produits</libelle>
+  </compte>
+  <compte>
+    <numero>71351</numero>
+    <libelle>Produits intermédiaires</libelle>
+  </compte>
+  <compte>
+    <numero>71355</numero>
+    <libelle>Produits finis</libelle>
+  </compte>
+  <compte>
+    <numero>72</numero>
+    <libelle>Production immobilisée</libelle>
+  </compte>
+  <compte>
+    <numero>721</numero>
+    <libelle>Production immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>722</numero>
+    <libelle>Production immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>74</numero>
+    <libelle>Subventions d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>75</numero>
+    <libelle>Autres produits de gestion courante</libelle>
+  </compte>
+  <compte>
+    <numero>751</numero>
+    <libelle>Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>7511</numero>
+    <libelle>Redevances pour concessions, brevets, licences, marques, procédés, logiciels</libelle>
+  </compte>
+  <compte>
+    <numero>7516</numero>
+    <libelle>Droits d'auteur et de reproduction</libelle>
+  </compte>
+  <compte>
+    <numero>7518</numero>
+    <libelle>Autres droits et valeurs similaires</libelle>
+  </compte>
+  <compte>
+    <numero>752</numero>
+    <libelle>Revenus des immeubles non affectés à des activités professionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>753</numero>
+    <libelle>Jetons de présence et rémunérations d'administrateurs, gérants,</libelle>
+  </compte>
+  <compte>
+    <numero>754</numero>
+    <libelle>Ristournes perçues des coopératives (provenant des excédents)</libelle>
+  </compte>
+  <compte>
+    <numero>755</numero>
+    <libelle>Quotes-parts de résultat sur opérations faites en commun</libelle>
+  </compte>
+  <compte>
+    <numero>7551</numero>
+    <libelle>Quote-part de perte transférée (comptabilité du gérant)</libelle>
+  </compte>
+  <compte>
+    <numero>7555</numero>
+    <libelle>Quote-part de bénéfice attribuée (comptabilité des associés non-gérants)</libelle>
+  </compte>
+  <compte>
+    <numero>758</numero>
+    <libelle>Produits divers de gestion courante</libelle>
+  </compte>
+  <compte>
+    <numero>76</numero>
+    <libelle>Produits financiers</libelle>
+  </compte>
+  <compte>
+    <numero>761</numero>
+    <libelle>Produits de participations</libelle>
+  </compte>
+  <compte>
+    <numero>7611</numero>
+    <libelle>Revenus des titres de participation</libelle>
+  </compte>
+  <compte>
+    <numero>7616</numero>
+    <libelle>Revenus sur autres formes de participation</libelle>
+  </compte>
+  <compte>
+    <numero>7617</numero>
+    <libelle>Revenus des créances rattachées à des participations</libelle>
+  </compte>
+  <compte>
+    <numero>762</numero>
+    <libelle>Produits des autres immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>7621</numero>
+    <libelle>Revenus des titres immobilisés</libelle>
+  </compte>
+  <compte>
+    <numero>7626</numero>
+    <libelle>Revenus des prêts</libelle>
+  </compte>
+  <compte>
+    <numero>7627</numero>
+    <libelle>Revenus des créances immobilisées</libelle>
+  </compte>
+  <compte>
+    <numero>763</numero>
+    <libelle>Revenus des autres créances</libelle>
+  </compte>
+  <compte>
+    <numero>7631</numero>
+    <libelle>Revenus des créances commerciales</libelle>
+  </compte>
+  <compte>
+    <numero>7638</numero>
+    <libelle>Revenus des créances diverses</libelle>
+  </compte>
+  <compte>
+    <numero>764</numero>
+    <libelle>Revenus des valeurs mobilières de placement</libelle>
+  </compte>
+  <compte>
+    <numero>765</numero>
+    <libelle>Escomptes obtenus</libelle>
+  </compte>
+  <compte>
+    <numero>766</numero>
+    <libelle>Gains de change</libelle>
+  </compte>
+  <compte>
+    <numero>767</numero>
+    <libelle>Produits nets sur cessions de valeurs mobilières de placement</libelle>
+  </compte>
+  <compte>
+    <numero>768</numero>
+    <libelle>Autres produits financiers</libelle>
+  </compte>
+  <compte>
+    <numero>77</numero>
+    <libelle>Produits exceptionnels</libelle>
+  </compte>
+  <compte>
+    <numero>771</numero>
+    <libelle>Produits exceptionnels sur opérations de gestion</libelle>
+  </compte>
+  <compte>
+    <numero>7711</numero>
+    <libelle>Dédits et pénalités perçus sur achats et sur ventes</libelle>
+  </compte>
+  <compte>
+    <numero>7713</numero>
+    <libelle>Libéralités reçues</libelle>
+  </compte>
+  <compte>
+    <numero>7714</numero>
+    <libelle>Rentrées sur créances amorties</libelle>
+  </compte>
+  <compte>
+    <numero>7715</numero>
+    <libelle>Subventions d'équilibre</libelle>
+  </compte>
+  <compte>
+    <numero>7717</numero>
+    <libelle>Dégrèvements d'impôts autres qu'impôts sur les bénéfices</libelle>
+  </compte>
+  <compte>
+    <numero>7718</numero>
+    <libelle>Autres produits exceptionnels sur opérations de gestion</libelle>
+  </compte>
+  <compte>
+    <numero>772</numero>
+    <libelle>(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur exercices antérieurs)</libelle>
+  </compte>
+  <compte>
+    <numero>775</numero>
+    <libelle>Produits des cessions d'éléments d'actif</libelle>
+  </compte>
+  <compte>
+    <numero>7751</numero>
+    <libelle>Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>7752</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>7756</numero>
+    <libelle>Immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>7758</numero>
+    <libelle>Autres éléments d'actif</libelle>
+  </compte>
+  <compte>
+    <numero>777</numero>
+    <libelle>Quote-part des subventions d'investissement virée au résultat de l'exercice</libelle>
+  </compte>
+  <compte>
+    <numero>778</numero>
+    <libelle>Autres produits exceptionnels</libelle>
+  </compte>
+  <compte>
+    <numero>7781</numero>
+    <libelle>Bonis provenant de clauses d'indexation</libelle>
+  </compte>
+  <compte>
+    <numero>7782</numero>
+    <libelle>Lots</libelle>
+  </compte>
+  <compte>
+    <numero>7783</numero>
+    <libelle>Bonis provenant du rachat par l'entreprise d'actions et d'obligations émises par elle-même</libelle>
+  </compte>
+  <compte>
+    <numero>7788</numero>
+    <libelle>Produits exceptionnels divers</libelle>
+  </compte>
+  <compte>
+    <numero>78</numero>
+    <libelle>Reprises sur amortissements et provisions</libelle>
+  </compte>
+  <compte>
+    <numero>781</numero>
+    <libelle>Reprises sur amortissements et provisions (à inscrire dans les produits d'exploitation)</libelle>
+  </compte>
+  <compte>
+    <numero>7811</numero>
+    <libelle>Reprises sur amortissements des immobilisations incorporelles et corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>78111</numero>
+    <libelle>Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>78112</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>7815</numero>
+    <libelle>Reprises sur provisions pour risques et charges d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>7816</numero>
+    <libelle>Reprises sur dépréciations des immobilisations incorporelles et corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>78161</numero>
+    <libelle>Immobilisations incorporelles</libelle>
+  </compte>
+  <compte>
+    <numero>78162</numero>
+    <libelle>Immobilisations corporelles</libelle>
+  </compte>
+  <compte>
+    <numero>7817</numero>
+    <libelle>Reprises sur provisions pour dépréciation des actifs circulants</libelle>
+  </compte>
+  <compte>
+    <numero>78173</numero>
+    <libelle>Stocks et en-cours</libelle>
+  </compte>
+  <compte>
+    <numero>78174</numero>
+    <libelle>Créances</libelle>
+  </compte>
+  <compte>
+    <numero>786</numero>
+    <libelle>Reprises sur provisions pour risques (à inscrire dans les produits financiers)</libelle>
+  </compte>
+  <compte>
+    <numero>7865</numero>
+    <libelle>Reprises sur provisions pour risques et charges financiers</libelle>
+  </compte>
+  <compte>
+    <numero>7866</numero>
+    <libelle>Reprises sur provisions pour dépréciation des éléments financiers</libelle>
+  </compte>
+  <compte>
+    <numero>78662</numero>
+    <libelle>Immobilisations financières</libelle>
+  </compte>
+  <compte>
+    <numero>78665</numero>
+    <libelle>Valeurs mobilières de placements</libelle>
+  </compte>
+  <compte>
+    <numero>787</numero>
+    <libelle>Reprises sur provisions (à inscrire dans les produits exceptionnels)</libelle>
+  </compte>
+  <compte>
+    <numero>7872</numero>
+    <libelle>Reprises sur provisions réglementées (immobilisations)</libelle>
+  </compte>
+  <compte>
+    <numero>78725</numero>
+    <libelle>Amortissement dérogatoires</libelle>
+  </compte>
+  <compte>
+    <numero>78726</numero>
+    <libelle>Provision spéciale de réévaluation</libelle>
+  </compte>
+  <compte>
+    <numero>78727</numero>
+    <libelle>Plus-values réinvesties</libelle>
+  </compte>
+  <compte>
+    <numero>7873</numero>
+    <libelle>Reprises sur provision réglementées (stock)</libelle>
+  </compte>
+  <compte>
+    <numero>7874</numero>
+    <libelle>Reprises sur autres provision réglementées</libelle>
+  </compte>
+  <compte>
+    <numero>7875</numero>
+    <libelle>Reprises sur provisions exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>7876</numero>
+    <libelle>Reprises sur dépréciations exceptionnelles</libelle>
+  </compte>
+  <compte>
+    <numero>79</numero>
+    <libelle>Transferts de charges</libelle>
+  </compte>
+  <compte>
+    <numero>791</numero>
+    <libelle>Transferts de charges d'exploitation</libelle>
+  </compte>
+  <compte>
+    <numero>796</numero>
+    <libelle>Transferts de charges financières</libelle>
+  </compte>
+  <compte>
+    <numero>797</numero>
+    <libelle>Transferts de charges exceptionnelles</libelle>
+  </compte>
+</comptes>

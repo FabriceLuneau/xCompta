@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comptes>
+	<compte>
+		<numero>401001</numero>
+		<libelle>Fournisseur A</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>401002</numero>
+		<libelle>Fournisseur B</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>401003</numero>
+		<libelle>Fournisseur C</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>401004</numero>
+		<libelle>Fournisseur D</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>401005</numero>
+		<libelle>Fournisseur E</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+
+	<compte>
+		<numero>404001</numero>
+		<libelle>Fournisseur d'immobilisation A</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>404002</numero>
+		<libelle>Fournisseur d'immobilisation B</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>404003</numero>
+		<libelle>Fournisseur d'immobilisation C</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>404004</numero>
+		<libelle>Fournisseur d'immobilisation D</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>404005</numero>
+		<libelle>Fournisseur d'immobilisation E</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	
+	<compte>
+		<numero>411001</numero>
+		<libelle>Client A</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>411002</numero>
+		<libelle>Client B</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>411003</numero>
+		<libelle>Client C</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>411004</numero>
+		<libelle>Client D</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>411005</numero>
+		<libelle>Client E</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	
+	<compte>
+		<numero>4371</numero>
+		<libelle>Caisse A</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	<compte>
+		<numero>4372</numero>
+		<libelle>Caisse B</libelle>
+		<utilisable>true</utilisable>
+	</compte>
+	
+</comptes>

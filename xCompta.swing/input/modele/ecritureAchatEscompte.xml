@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ecriture>
+  <libelle></libelle>
+  <journal>AC</journal>
+  <mouvements>
+    <mouvement>
+      <compte>601</compte>
+      <montant>0.0</montant>
+    </mouvement>
+    <mouvement>
+      <compte>44566</compte>
+      <montant>0.0</montant>
+    </mouvement>
+    <mouvement>
+      <compte>401001</compte>
+      <montant>0.0</montant>
+    </mouvement>
+    <mouvement>
+      <compte>765</compte>
+      <montant>0.0</montant>
+    </mouvement>
+  </mouvements>
+</ecriture>

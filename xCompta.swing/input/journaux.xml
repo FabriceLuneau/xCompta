@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<journals>
+	<journal><code>AC</code><libelle>Journal des achats</libelle></journal>
+	<journal><code>VE</code><libelle>Journal des ventes</libelle></journal>
+	<journal><code>CAI</code><libelle>Journal de caisse</libelle></journal>
+	<journal><code>OD</code><libelle>Journal des opérations diverses</libelle></journal>
+	<journal><code>BQ</code><libelle>Journal de banque</libelle></journal>
+	<journal><code>AN</code><libelle>Journal de des à nouveaux</libelle></journal>
+</journals>

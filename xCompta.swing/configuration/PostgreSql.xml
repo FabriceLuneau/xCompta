@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<compta.raisonsociale>"raisonsociale"</compta.raisonsociale>
+	<compta.filename>"filename"</compta.filename>
+	<compta.host>127.0.0.1</compta.host>
+
+	<hibernate.dialect>org.hibernate.dialect.PostgreSQLDialect</hibernate.dialect>
+	<hibernate.connection.driver_class>org.postgresql.Driver</hibernate.connection.driver_class>
+	<hibernate.connection.url>jdbc:postgresql://"host"»/"database"</hibernate.connection.url>
+	<hibernate.connection.ursername>postgres</hibernate.connection.ursername>
+	<hibernate.connection.password></hibernate.connection.password>
+	<hibernate.connection.autocommit>true</hibernate.connection.autocommit>
+	<hibernate.connection.pool_size>10</hibernate.connection.pool_size>
+	<hibernate.connection.show_sql>true</hibernate.connection.show_sql>
+	<hibernate.current_session_context_class>thread</hibernate.current_session_context_class>
+</configuration>

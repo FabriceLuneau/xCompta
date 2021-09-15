@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ecriture>
+  <libelle>Facture d'achat n°123 Fr A</libelle>
+  <journal>AC</journal>
+  <mouvements>
+    <mouvement>
+      <compte>607</compte>
+      <montant>1000.0</montant>
+    </mouvement>
+    <mouvement>
+      <compte>44566</compte>
+      <montant>119.6</montant>
+    </mouvement>
+    <mouvement>
+      <compte>401001</compte>
+      <montant>-1119.6</montant>
+    </mouvement>
+  </mouvements>
+</ecriture>

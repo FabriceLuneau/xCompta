@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <cells>
+    <cell coord="0,0">Fabrice</cell>
+    <cell>8</cell>
+    <cell coord="0,1">=10+10</cell>
+  </cells>
+</worksheet>

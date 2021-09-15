@@ -1,0 +1,91 @@
+* Dossier XML et input
+LEs deux font doublons fusionner
+
+* Base de données HQL
+Créer un assistant création, qui crée une base Hsql avec les journaux et les classes.
+Proposer un chois de plan comptable
+
+*général
+supprimer les méthodes main dans toutes les class les testes doivent être fait avec JUnit
+Gérer les menus pop-up au clavier
+
+*JTree arbre des compte
+Gérer le menu pop up au clavier 
+
+* Pour la boite de création de compte
+-faire une seule methode init 
+-utiliser le grid back layiout et aussi pour les autres boites de ce type formulaire modification création
+Attention il y a deux modes création et modification !
+Vérifier la modification
+
+*Table saisie écriture :
+une fois le compte valider placer le focu selection au debit ou au crédit, en fonction de la nature du compte
+sortir les méthodes métiers de l'initialisation des items des menu pop up, s'il sont trop complexes
+copier couper contrepartie é faire ?
+
+*fenetre de saisie d'ecriture
+mettre les totaux dans des jtextfield bloqués
+
+*JPopMenu
+afficher les menus pop up depuis la touche menu contextuel
+
+*raccourcis clavier
+étudier les combinaisons de touches
+alt maj q etc , comme sous eclipse
+Sinon utiliser les memonics
+
+*Classe metiers
+étudier la class métier solde 
+Solde :
+Date solde du jour, total crédit totaldébit
+Relation avec l'entité compte
+créer un grand livre sur le modèle d'une bloque chaine
+
+étudier la cloture des comptes
+
+*hibernate
+
+*jdbc
+introduire le chargement des pilotes JDBC, reprendre du projet BlindDB
+Tester d'autres bases dont SQLite, derby postgresSQL
+
+*CellRender());
+this.setDefaultRenderer(Object.class, new BoggCellRender());
+Etudier le rendu de cellule universel, celui déjé existant dans bogg fait planter
+
+*table consultation ecriture
+définir les items du menu pop up
+
+*Plan comptable
+placer le focus à l'ouverture dans la jtable
+
+*Table Ecriture saisie
+ajouter item menu pop up
+imprimer
+contrepasser
+modifier pour les ecritures non validées
+	supprimer de méme
+
+*consultation des compte
+l'affichage d'une écriture plante, il semble que l'écriture passée en argument soit null
+il y a une null pointer exception lors de l'appel de la frame d'affichage d'écriture
+peut etre la meme chose pour la consultation des journaux
+
+*liste des journaux
+faire un menu contextuel
+consulter modifier ?	
+
+*consultation du brouillard
+code suspect
+initialiser la table 
+table model en null pointer exception
+
+Genéraliser les generic
+
+Création modification de compte
+*la gestion du  formulaire pose problème pour les numéro impossible
+consultation des écritures
+*impossible de contrepasser une écriture depuis le menu pop up 
+* impossible d'afficher une écriture depuis le menu pop up
+* impossible de modifier une écriture
+
