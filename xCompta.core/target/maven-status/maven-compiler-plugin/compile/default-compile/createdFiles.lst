@@ -3,7 +3,6 @@ fr\xcompta\core\base\exception\XComptaMontantException.class
 fr\xcompta\core\base\Mouvement.class
 fr\xcompta\core\date\exception\DateException.class
 fr\xcompta\core\date\exception\DateInvalideException.class
-fr\xcompta\core\etat\Grille.class
 fr\xcompta\core\xcontext\dao\exception\XComptaSauvegardeException.class
 fr\xcompta\core\xcontext\dao\exception\XComptaObjetIntrouvableException.class
 fr\xcompta\core\xcontext\BasicDatas.class
@@ -31,6 +30,7 @@ fr\xcompta\core\base\exception\XComptaCoreException.class
 fr\xcompta\core\base\EcritureDeBrouillard.class
 fr\xcompta\core\etat\Ligne.class
 fr\xcompta\core\base\exception\ValidationEcritureException.class
+fr\xcompta\core\base\LigneGrandLivre.class
 fr\xcompta\core\xcontext\dao\extractableParametrable.class
 fr\xcompta\core\base\ExercisseComptable.class
 fr\xcompta\core\xcontext\dao\Crudable.class

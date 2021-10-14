@@ -13,6 +13,7 @@ import fr.xcompta.core.base.Lettrage;
 import fr.xcompta.core.base.Mouvement;
 import fr.xcompta.core.base.Solde;
 import fr.xcompta.core.base.exception.ValidationEcritureException;
+import fr.xcompta.core.etat.Etat;
 import fr.xcompta.core.xcontext.dao.exception.XComptaMiseAJourException;
 import fr.xcompta.core.xcontext.dao.exception.XComptaObjetExisteDejaException;
 import fr.xcompta.core.xcontext.dao.exception.XComptaObjetIntrouvableException;
@@ -46,7 +47,9 @@ public interface XContextInterface extends AutoCloseable {
 
 	public abstract List<Compte> getComptes();
 
-	public abstract void sauverCompte(Compte compte) throws XComptaSauvegardeException;
+	public abstract void sauverCompte(Compte compte) throws XComptaObjetExisteDejaException, XComptaSauvegardeException;
+	
+	public abstract Etat getEtatPlanComptable(); 
 
 	public abstract void supprimerCompte(Compte compte) throws XComptaObjetVerouilleException;
 
@@ -118,4 +121,6 @@ public interface XContextInterface extends AutoCloseable {
 	public abstract void lettrer(List<Mouvement> mouvements);
 
 	public abstract void deLettrer(List<Mouvement> mouvements);
+	
+	//Etat
 }

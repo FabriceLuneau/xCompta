@@ -4,11 +4,10 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 import javax.persistence.Basic;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotNull;
 
 /**
  * @author Fabrice LUNEAU
@@ -29,15 +28,13 @@ import javax.persistence.ManyToOne;
 public class Solde implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	@Id	
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
-
-//	@EmbeddedId
+	@EmbeddedId
 	@Basic
+	@NotNull
 	private LocalDate date;
-//	@EmbeddedId
+	@EmbeddedId
 	@ManyToOne
+	@NotNull	
 	private Compte compte;
 	private float debit;
 	private float credit;
@@ -46,40 +43,16 @@ public class Solde implements Serializable {
 	private float cumuleCredit;
 	private float soldeCumule;
 
-	/**
-	 * Constructeur pour JPA/Hibernate
-	 */
-	public Solde() {}
-
-	public Solde(LocalDate date, Compte compte, float debit, float credit, float solde, float cumuleDebit,
-			float cumuleCredit, float soldeCumule) {
-		setDate(date);
-		setCompte(compte);
-		setDebit(debit);
-		setCredit(credit);
-		setSolde(solde);
-		setCumuleDebit(cumuleDebit);
-		setCumuleCredit(cumuleCredit);
-		setSoldeCumule(soldeCumule);
+	
+	public Solde() {
+//	 Constructeur pour JPA/Hibernate
 	}
 	
-	public int getId() {
-		return id;
-	}
-	
-	public void setId() {
-	this.id = id;	
-	}
-
 	public LocalDate getDate() {
 		return date;
 	}
 
 	public void setDate(LocalDate date) {
-		if (date == null) {
-			throw new NullPointerException(getClass() + " : 'objet DATE en argument est NULL");
-		}
-
 		this.date = date;
 	}
 
@@ -88,10 +61,6 @@ public class Solde implements Serializable {
 	}
 
 	public void setCompte(Compte compte) {
-		if (compte == null) {
-			throw new NullPointerException(getClass() + " :L'objet COMPTE en argument est NULL");
-		}
-
 		this.compte = compte;
 	}
 

@@ -6,12 +6,11 @@ import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 
 /**
- * @author Fabrice Luneau
+	 * @author Fabrice Luneau
  * 
  *         Les journaux comptable, permettent de classer les ecritures par theme
  *
@@ -23,21 +22,24 @@ import org.hibernate.validator.constraints.Length;
  */
 @Entity
 public class Journal implements Serializable {
-	protected static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
 	@Id
-//	@NotBlank
-//	@Length(min = 2, max = 5)
+	@NotBlank
+	@Length
+	(min = 2, max = 5)
 	protected String code = "";
 //	@NotNull
 //	@NotBlank
-//	@Length(min = 5, max = 50)
-	protected String libelle = "";
+	@Length(min = 5, max = 50)
+	private String libelle = "";
 
+	
 	/**
 	 * Constructeur vide pour Hibernate
 	 */
 	public Journal() {
+		//Constructeur vide pour JPA/Hibernate
 	}
 
 	/**
@@ -55,17 +57,7 @@ public class Journal implements Serializable {
 		return code;
 	}
 
-	public void setCode(String code) {
-//		if (code == null) {
-//			throw new NullPointerException();
-//		}
-
-		code = code.trim();
-		
-		if(code.isEmpty() || code.length() < 2) {
-			throw new IllegalArgumentException(getClass() + " : le code en argument est trop court");
-	}
-		
+	public void setCode(final String code) {
 		this.code = code;
 	}
 	
@@ -73,17 +65,7 @@ public class Journal implements Serializable {
 		return libelle;
 	}
 
-	public void setLibelle(String libelle) {
-//		if (libelle == null) {
-//			throw new NullPointerException();
-//		}
-//		
-//		libelle = libelle.trim();
-		
-//		if(libelle.isEmpty() || code.length() < 2) {
-//			throw new IllegalArgumentException(getClass() + " : le libelle en argument est trop court");
-//	}
-
+	public void setLibelle(final String libelle) {
 		this.libelle = libelle;
 	}
 

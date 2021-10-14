@@ -41,6 +41,7 @@ public class Lettrage implements Serializable {
 	@OneToMany
 	private List<Mouvement> mouvements = new ArrayList<>();
 
+	
 	/**
 	 * Constructeur vide pour JPA/Hibernate
 	 */
@@ -56,10 +57,6 @@ public class Lettrage implements Serializable {
 	}
 
 	public void setId(int id) {
-		if (id < 0) {
-			throw new IllegalArgumentException("Lettrage : L'ID en argument est invalide");
-		}
-
 		this.id = id;
 	}
 
@@ -68,10 +65,6 @@ public class Lettrage implements Serializable {
 	}
 
 	public void setDate(LocalDateTime date) {
-		if (date == null) {
-			throw new NullPointerException("Lettrage : L'objet Date en argument est null)");
-		}
-
 		this.date = date;
 	}
 

@@ -10,11 +10,10 @@ public class Compte implements Serializable	 {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	private String numero;
-	private String libelle;
+	private String numero = null;
+	private String libelle = "";
 	private boolean utilisable = true;
-//	@ManyToOne
-//	private Classe classe;
+//	private boolean lettrable = false;
 	
 	
 	public Compte() {
@@ -27,7 +26,7 @@ public class Compte implements Serializable	 {
 		setUtilisable(true);
 	}
 	
-	public Compte(String numero, String libelle, boolean utilisable) {
+	public Compte(final String numero , final String libelle, boolean utilisable) {
 		this.numero = numero;
 		setNumero(numero);
 		setLibelle(libelle);
@@ -38,7 +37,7 @@ public class Compte implements Serializable	 {
 		return libelle;
 	}
 
-	public void setLibelle(String libelle) {
+	public void setLibelle(final String libelle) {
 		this.libelle = libelle;
 	}
 
@@ -46,15 +45,15 @@ public class Compte implements Serializable	 {
 		return numero;
 	}
 
-	public void setNumero(String numero) {
-		this.numero = numero;
+	public void setNumero(final String numero) {
+		this.numero = trimNumero(numero);
 	}
 
 	public boolean isUtilisable() {
 		return utilisable;
 	}
 
-	public void setUtilisable(boolean utilisable) {
+	public void setUtilisable(final boolean utilisable) {
 		this.utilisable = utilisable;
 	}
 
@@ -63,63 +62,55 @@ public class Compte implements Serializable	 {
 		return numero + "-" + libelle;
 	}
 
-	public short getClasse() {
+	public short getNumeroClasse() {
 		return Short.parseShort(numero.substring(0, 1));
 	}
 	
-//	public void setClasse(Classe classe) {
-//		this.classe = classe;
-//	}
-
-	public static String trimNumero(String numero) {
-		if(numero.isEmpty()) {
-		return numero;
+	public static String trimNumero(String numeroToTrim) {
+		if(numeroToTrim.isEmpty()) {
+		return numeroToTrim;
 		}
 				
 		//Supprime les zéros en début de chaînes
-			while(numero.charAt(0) =='0') {
-				numero = numero.substring(1) ;
+			while(numeroToTrim.charAt(0) =='0') {
+				numeroToTrim = numeroToTrim.substring(1) ;
 	}
 			
 			//Supprime les zéros en fain de chaînes
-			while((numero.charAt(numero.length()-1)) == '0')
-				numero = numero.substring(0, (numero.length()-1));
+			while((numeroToTrim.charAt(numeroToTrim.length()-1)) == '0')
+				numeroToTrim = numeroToTrim.substring(0, (numeroToTrim.length()-1));
 		
-			while((numero.charAt(0)) == '0')
-				numero = numero.substring(1, (numero.length()));
-			return numero;
+			while((numeroToTrim.charAt(0)) == '0')
+				numeroToTrim = numeroToTrim.substring(1, (numeroToTrim.length()));
+			return numeroToTrim;
 		}
-	
-	public String getNumeroTrimed() {
-		return trimNumero(numero);
-	}
 
-	public static String formatNumero(String numero, int nbDecimal) {
-		numero = numero.trim();
-		numero = numero.toUpperCase();
+	public static String formatNumero(String numeroToFormat, int nbDecimal) {
+		numeroToFormat = numeroToFormat.trim();
+		numeroToFormat = numeroToFormat.toUpperCase();
 	
-		if(numero.matches("401[A-Za-z]+"))
-			return numero;
+		if(numeroToFormat.matches("401[A-Za-z]+"))
+			return numeroToFormat;
 	
-		if(numero.matches("411[A-Za-z]+"))
-			return numero;
+		if(numeroToFormat.matches("411[A-Za-z]+"))
+			return numeroToFormat;
 	
-		if(numero.matches("404[A-Za-z]+"))
-			return numero;
+		if(numeroToFormat.matches("404[A-Za-z]+"))
+			return numeroToFormat;
 	
-		if(numero.matches("[1-9]\\d{1," + (nbDecimal-1) +"}")) {
-			if(numero.length() < nbDecimal ) {
-				int j = nbDecimal-numero.length(); 
+		if(numeroToFormat.matches("[1-9]\\d{1," + (nbDecimal-1) +"}")) {
+			if(numeroToFormat.length() < nbDecimal ) {
+				int j = nbDecimal-numeroToFormat.length(); 
 					for(int i=0;i<j;i++)	//Trouver une meilleur solution
-						numero = numero.concat("0");
+						numeroToFormat = numeroToFormat.concat("0");
 			} else
-				numero = numero.substring(0, nbDecimal);
-			return numero;
+				numeroToFormat = numeroToFormat.substring(0, nbDecimal);
+			return numeroToFormat;
 		}
 		return null;
 	}
 	
-	public String numeroFormated(int nbDecimal) {
+	public String getNumeroFormated(int nbDecimal) {
 		return formatNumero(numero, nbDecimal);
 	}
 }
