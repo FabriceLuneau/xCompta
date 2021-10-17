@@ -26,7 +26,7 @@ public class BFormulaireClasse extends JInternalFrame {
 
 	private JTextField fieldNumero = new JTextField(10);
 	private JTextField fieldLibelle = new JTextField(250);
-	private JButton buttonSauver = new JButton("CrÃ©er");
+	private JButton buttonSauver = new JButton("Créer");
 
 	private JButton buttonAnnuler = new JButton("Annuler");
 	private JButton buttonSupprimer = new JButton("Supprimer");
@@ -154,7 +154,7 @@ public class BFormulaireClasse extends JInternalFrame {
 			classe.setLibelle(fieldLibelle.getText());
 			xContext.mettreAJourClasse(classe);
 
-			JOptionPane.showMessageDialog(getParent(), classe + " modifiÃ©");
+			JOptionPane.showMessageDialog(getParent(), classe + " modifié");
 			dispose();
 		} catch (XComptaObjetIntrouvableException e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lors de la sauvegarde de " + classe);
@@ -168,7 +168,7 @@ public class BFormulaireClasse extends JInternalFrame {
 			classe = xContext.getClasse(Short.parseShort(fieldNumero.getText()));
 			xContext.supprimerClasse(classe);
 
-			JOptionPane.showMessageDialog(getParent(), classe + "supprimÃ©");
+			JOptionPane.showMessageDialog(getParent(), classe + "supprimé");
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lores de la suppression de " + classe);
 		}

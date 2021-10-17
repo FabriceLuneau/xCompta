@@ -66,7 +66,8 @@ value -=1;
 				//System.out.println(c.charValue('A'));
 				//System.out.println(c.charValue('z'));
 				
-				//System.out.println(c.charForNumber(5));
+			System.out.println(c.charForNumber(0));	
+			System.out.println(c.charForNumber(5));
 				//System.out.println(c.charForNumber(0));
 				//System.out.println(c.charForNumber(1));
 
@@ -81,14 +82,14 @@ value -=1;
 		//System.out.println(i + "*" +c.numberToChar(i));
 			//}
 			
-			for(int  i=0;i<100000;i++) {
-				String a = c.numberToString(i);
-			int  b = c.stringToNumber(a);
+//			for(int  i=0;i<100000;i++) {
+//				String a = c.numberToString(i);
+//			int  b = c.stringToNumber(a);
 			
-			if(b != i) {
-				System.out.println(i + " - " + a);
-			}
-			}
+//			if(b != i) {
+//				System.out.println(i + " - " + a);
+//			}
+//			}
 				
 			//System.out.println(c.stringToNumber("aaa"));//ABC 730
 	}

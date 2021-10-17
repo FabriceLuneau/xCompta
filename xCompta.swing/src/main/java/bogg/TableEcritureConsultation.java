@@ -75,7 +75,7 @@ public class TableEcritureConsultation extends JTable {
 		// Cr�ation du menu
 		popUpMenu.add(menuItemCopier);
 
-		// Gestiondes des  évènements pour les items du menu
+		// Gestiondes des  �vènements pour les items du menu
 		menuItemCopier.addActionListener(
 				event -> {
 				// code

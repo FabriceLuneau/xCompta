@@ -28,7 +28,7 @@ import fr.xcompta.core.xcontext.XContextInterface;
  * @author Fabrice LUNEAU
  * 
  *         JTable permettant de saisir les mouvement d'une Ecriture. A partir
- *         d'un objet SociÃ©tÃ©
+ *         d'un objet Société
  */
 /**
  * @author Fabrice
@@ -60,13 +60,12 @@ public class TableEcritureSaisie extends JTable {
 	protected JMenuItem menuItemCouper = new JMenuItem("Couper ligne");
 	protected JMenuItem menuItemColler = new JMenuItem("Coller ligne");
 	protected JMenuItem menuItemSupprimer = new JMenuItem("Suprrimer ligne");
-	protected JMenuItem menuItemInserer = new JMenuItem("InsÃ©rer une ligne");
+	protected JMenuItem menuItemInserer = new JMenuItem("Insérer une ligne");
 	protected JMenuItem menuItemContrepartie = new JMenuItem("contrepartie");
 
 	protected Mouvement pressePapier = null;
 
-	protected final String[] titreColonne = { "Compte", "LibellÃ©", "DÃ©bit",
-			"CrÃ©dit" };
+	protected final String[] titreColonne = { "Compte", "Libellé", "Débit", "Crédit" };
 
 	/**
 	 * @param xContext
@@ -122,7 +121,7 @@ public class TableEcritureSaisie extends JTable {
 	}
 
 	private void initialiserPopMenu() {
-		// CrÃ©ation du menu
+		// Création du menu
 		popUpMenu.add(menuItemCopier);
 		popUpMenu.add(menuItemColler);
 		popUpMenu.add(menuItemCouper);
@@ -130,60 +129,50 @@ public class TableEcritureSaisie extends JTable {
 		popUpMenu.add(menuItemSupprimer);
 		popUpMenu.add(menuItemContrepartie);
 
-		// Gestiondes des Ã©vÃ©nements pour les items du menu
-		menuItemInserer.addActionListener(
-				event -> {
-				ajouterLigne(rowClicked);
+		// Gestiondes des événements pour les items du menu
+		menuItemInserer.addActionListener(event -> {
+			ajouterLigne(rowClicked);
 		});
 
-		menuItemSupprimer.addActionListener(
-				event -> {
-				supprimerLigne(rowClicked);
+		menuItemSupprimer.addActionListener(event -> {
+			supprimerLigne(rowClicked);
 		});
 
-		menuItemCopier.addActionListener(
-				event -> {
-				try {
-					pressePapier = ecriture.getMouvements().get(
-							rowClicked);
-				} catch (NullPointerException npe) {
-					//todo faire quelque chose
-				}
+		menuItemCopier.addActionListener(event -> {
+			try {
+				pressePapier = ecriture.getMouvements().get(rowClicked);
+			} catch (NullPointerException npe) {
+				// todo faire quelque chose
+			}
 		});
 
-		menuItemCouper.addActionListener(
-				event -> {
-				pressePapier =  ecriture.getMouvements().get(
-						rowClicked);
-				ecriture.supprimerMouvement(rowClicked);
-				((AbstractTableModel) tableModel).fireTableDataChanged();
+		menuItemCouper.addActionListener(event -> {
+			pressePapier = ecriture.getMouvements().get(rowClicked);
+			ecriture.supprimerMouvement(rowClicked);
+			((AbstractTableModel) tableModel).fireTableDataChanged();
 		});
 
-		menuItemColler.addActionListener(
-				event -> {
-				if (rowClicked >= ecriture.getMouvements().size())
+		menuItemColler.addActionListener(event -> {
+
 //					ecriture.ajouterMouvementA(Mouvement(rowClicked, new Mouvement()));
 
-				ecriture.getMouvements().set(rowClicked, pressePapier);
-				pressePapier = null;
-				((AbstractTableModel) tableModel).fireTableDataChanged();
+			ecriture.getMouvements().set(rowClicked, pressePapier);
+			pressePapier = null;
+			((AbstractTableModel) tableModel).fireTableDataChanged();
 		});
 
-		menuItemContrepartie.addActionListener(
-				event -> {
-				try {
-					if (!ecriture.estEquilibree()) {
-						Mouvement mouvement = ecriture.getMouvements().get(
-								rowClicked);
-						mouvement.setMontant(ecriture.getSolde() * -1);
-						((AbstractTableModel) tableModel)
-								.fireTableDataChanged();
-					}
-				} catch (NullPointerException npe) {
-					//Todo faire quelque chose
+		menuItemContrepartie.addActionListener(event -> {
+			try {
+				if (!ecriture.estEquilibree()) {
+					Mouvement mouvement = ecriture.getMouvements().get(rowClicked);
+					mouvement.setMontant(ecriture.getSolde() * -1);
+					((AbstractTableModel) tableModel).fireTableDataChanged();
 				}
+			} catch (NullPointerException npe) {
+				// Todo faire quelque chose
+			}
 		});
-		// Gestion des Ã©vÃ©nements pour le clavier et la sourie
+		// Gestion des événements pour le clavier et la sourie
 
 		addKeyListener(new KeyAdapter() {
 			@Override
@@ -273,8 +262,7 @@ public class TableEcritureSaisie extends JTable {
 			switch (column) {
 			case 0:
 				if (mouvement.getCompte() != null) {
-					return Compte.formatNumero(mouvement.getCompte()
-							.getNumero(), preferences.nbDigitCompte);
+					return Compte.formatNumero(mouvement.getCompte().getNumero(), preferences.nbDigitCompte);
 				} else
 					return "";
 			case 1:
@@ -285,15 +273,13 @@ public class TableEcritureSaisie extends JTable {
 			case 2:
 				if (mouvement.getMontant() > 0)
 					if (mouvement.getMontant() != 0) {
-						return preferences.amountFormat.format(mouvement
-								.getMontant());
+						return preferences.amountFormat.format(mouvement.getMontant());
 					}
 				return "";
 			case 3:
 				if (mouvement.getMontant() < 0)
 					if (mouvement.getMontant() != 0) {
-						return preferences.amountFormat.format(mouvement
-								.getMontant());
+						return preferences.amountFormat.format(mouvement.getMontant());
 					}
 				return "";
 			default:
@@ -328,9 +314,8 @@ public class TableEcritureSaisie extends JTable {
 		/*
 		 * (non-Javadoc)
 		 * 
-		 * @see
-		 * javax.swing.table.AbstractTableModel#setValueAt(java.lang.Object,
-		 * int, int)
+		 * @see javax.swing.table.AbstractTableModel#setValueAt(java.lang.Object, int,
+		 * int)
 		 */
 		@Override
 		public void setValueAt(Object valeur, int row, int column) {
@@ -346,18 +331,17 @@ public class TableEcritureSaisie extends JTable {
 
 			switch (column) {
 			case 0:
-				Compte compte = null; 
-				
+				Compte compte = null;
+
 				try {
-				compte = xContext.getCompte((String) valeur);
-				} catch(Exception e) {
-					///mannulaluy toto generated block pas bo du  tout
+					compte = xContext.getCompte((String) valeur);
+				} catch (Exception e) {
+					/// mannulaluy toto generated block pas bo du tout
 					e.printStackTrace();
 				}
 
 				if (compte == null) {
-					JOptionPane.showMessageDialog(null,
-							"Ce compte n'existe pas !");
+					JOptionPane.showMessageDialog(null, "Ce compte n'existe pas !");
 					return;
 				} else {
 					if (compte.isUtilisable()) {
@@ -366,8 +350,7 @@ public class TableEcritureSaisie extends JTable {
 						fireTableDataChanged();
 						changeSelection(row, 2, false, false);
 					} else {
-						JOptionPane.showMessageDialog(null,
-								"Ce compte n'est pas utlisable !");
+						JOptionPane.showMessageDialog(null, "Ce compte n'est pas utlisable !");
 					}
 				}
 				break;
@@ -381,8 +364,7 @@ public class TableEcritureSaisie extends JTable {
 						fireTableDataChanged();
 						changeSelection(row + 1, 0, false, false);
 					} catch (Exception e) {
-						JOptionPane.showMessageDialog(null,
-								"Saisie non valide !");
+						JOptionPane.showMessageDialog(null, "Saisie non valide !");
 					}
 				}
 				break;
@@ -390,19 +372,17 @@ public class TableEcritureSaisie extends JTable {
 				if (mouvement.getCompte() != null) {
 					try {
 						valeur = ((String) valeur).replace(',', '.'); // internationalisation
-						mouvement.setMontant(Float.parseFloat((String) valeur)
-								* -1);
+						mouvement.setMontant(Float.parseFloat((String) valeur) * -1);
 
 						fireTableDataChanged();
 						changeSelection(row + 1, 0, false, false);
 					} catch (Exception e) {
-						JOptionPane.showMessageDialog(null,
-								"Saisie non valide !");
+						JOptionPane.showMessageDialog(null, "Saisie non valide !");
 					}
 				}
 				break;
-				default:
-					//erreur
+			default:
+				// erreur
 			}
 		}
 	}

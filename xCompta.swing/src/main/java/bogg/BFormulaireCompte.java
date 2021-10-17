@@ -14,6 +14,7 @@ import javax.swing.JTextField;
 
 import fr.xcompta.core.base.Compte;
 import fr.xcompta.core.xcontext.XContextInterface;
+import fr.xcompta.core.xcontext.dao.exception.XComptaObjetExisteDejaException;
 import fr.xcompta.core.xcontext.dao.exception.XComptaObjetIntrouvableException;
 import fr.xcompta.core.xcontext.dao.exception.XComptaSauvegardeException;
 
@@ -29,7 +30,7 @@ public class BFormulaireCompte extends JInternalFrame {
 	private JTextField fieldsNumero = new JTextField(10);
 	private JTextField fieldLibelle = new JTextField(25);
 	private JCheckBox checkBoxUtilisable = new JCheckBox();
-	private JButton buttonSauver = new JButton("Créer");
+	private JButton buttonSauver = new JButton("Cr�er");
 	private JButton buttonAnnuler = new JButton("Annuler");
 	private JButton buttonSupprimer = new JButton("Supprimer");
 
@@ -44,7 +45,7 @@ public class BFormulaireCompte extends JInternalFrame {
 
 		init();
 
-		buttonSauver.setText("Créer");
+		buttonSauver.setText("Cr�er");
 		buttonSupprimer.setEnabled(false);
 		fieldsNumero.setEditable(true);
 
@@ -100,12 +101,12 @@ public class BFormulaireCompte extends JInternalFrame {
 
 		JLabel label;
 
-		label = new JLabel("Numéro : ");
+		label = new JLabel("Num�ro : ");
 		panel.add(label);
 		panel1.add(fieldsNumero);
 		label.setLabelFor(fieldsNumero);
 
-		label = new JLabel("Libellé : ");
+		label = new JLabel("Libell : ");
 		panel2.add(label);
 		panel2.add(fieldLibelle);
 		label.setLabelFor(fieldLibelle);
@@ -144,14 +145,11 @@ public class BFormulaireCompte extends JInternalFrame {
 			compte.setLibelle(fieldLibelle.getText());
 			compte.setUtilisable(checkBoxUtilisable.isSelected());
 
-			xContext.sauverCompte(compte);
+			xContext.sauverCompte(compte) ;
 
-			JOptionPane.showMessageDialog(getParent(), compte + " sauvé");
-
-			dispose();
-//				((BBureau)getParent()).afficherJournaux();
-//		} catch (XComptaSauvegardeException ) 
-//			JOptionPane.showMessageDialog(getParent(), "Le compte existe déjà");
+			JOptionPane.showMessageDialog(getParent(), compte + " sauv�");
+		} catch(XComptaObjetExisteDejaException e) {
+			JOptionPane.showMessageDialog(getParent(), "Le compte existe djà");
 		} catch (XComptaSauvegardeException e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur de sauvegarde interne");
 		}
@@ -163,7 +161,7 @@ public class BFormulaireCompte extends JInternalFrame {
 			compte.setLibelle(fieldLibelle.getText());
 			xContext.mettreAJourCompte(compte);
 
-			JOptionPane.showMessageDialog(getParent(), compte + " modifié");
+			JOptionPane.showMessageDialog(getParent(), compte + " modifi");
 			dispose();
 		} catch (XComptaObjetIntrouvableException e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lors de la sauvegarde de " + compte);
@@ -179,7 +177,7 @@ public class BFormulaireCompte extends JInternalFrame {
 			compte = xContext.getCompte(fieldsNumero.getText());
 			xContext.supprimerCompte(compte);
 
-			JOptionPane.showMessageDialog(getParent(), compte + "supprimé");
+			JOptionPane.showMessageDialog(getParent(), compte + "supprim");
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lores de la suppression de " + compte);
 		}

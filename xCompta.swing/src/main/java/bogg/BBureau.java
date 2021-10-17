@@ -21,6 +21,10 @@ import fr.xcompta.core.base.Ecriture;
 import fr.xcompta.core.base.EcritureDeBrouillard;
 import fr.xcompta.core.base.EcritureValidee;
 import fr.xcompta.core.base.Journal;
+import fr.xcompta.core.etat.model.EtatListeClasse;
+import fr.xcompta.core.etat.model.EtatListeJournaux;
+import fr.xcompta.core.etat.model.EtatModel;
+import fr.xcompta.core.etat.model.EtatPlanComptable;
 import fr.xcompta.core.xcontext.XContextInterface;
 import fr.xcompta.core.xcontext.dao.exception.XComptaObjetIntrouvableException;
 
@@ -64,9 +68,10 @@ public class BBureau extends JFrame {
 			ajouterMenuTraitement();
 			ajouterMenuImporter();
 			ajouterMenuExporter();
+			ajouterMenuEtat();
 
 			// La fenetre
-			setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+			setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 			setVisible(true);
 
 			addWindowListener(new WindowListener() {
@@ -97,7 +102,7 @@ public class BBureau extends JFrame {
 
 				@Override
 				public void windowClosing(WindowEvent e) {
-					if (JOptionPane.showConfirmDialog(null, "Etes-vous sÃ»r de vouloir quitter ?", "Quitter",
+					if (JOptionPane.showConfirmDialog(null, "Etes-vous sûr de vouloir quitter ?", "Quitter",
 							JOptionPane.YES_NO_OPTION) == 0) {
 						xContext.close();
 
@@ -130,7 +135,7 @@ public class BBureau extends JFrame {
 			menu = new JMenu(nomMenu);
 			getJMenuBar().add(menu);
 
-			logger.info("CrÃ©ation du menu " + nomMenu);
+			logger.info("Création du menu " + nomMenu);
 		}
 
 		if (!menuItemExists(menu, nomMenuItem)) {
@@ -181,13 +186,13 @@ public class BBureau extends JFrame {
 		});
 		ajouterMenuItem("Classe", "Créer une classes", al);
 		
-		/*al = (event -> {
+		al = (event -> {
 				try {
 					Short numero = Short.parseShort(JOptionPane.showInputDialog(bureau, "Veuillez entrer le numero de la  classe", ""));
 
 					Classe classe = xContext.getClasse(numero);
 					
-					JInternalFrame fenetreInterne = new 	(xContext, classe);
+					JInternalFrame fenetreInterne = new BFormulaireClasse(xContext, classe);
 					
 bureau.add(fenetreInterne);
 					fenetreInterne.setVisible(true);
@@ -198,11 +203,15 @@ fenetreInterne = new BFormulaireClasse(xContext, classe);
 				} catch (Exception e) {
 					// TODO: handle exception
 				}
-				});*/
+				});
 ajouterMenuItem("Classe", "Modifier une classe", al);
 
 al = (event -> {
-			JInternalFrame fenetreInterne = new BListeClasses(xContext);
+	EtatModel model = new EtatListeClasse(xContext);
+	JInternalFrame fenetreInterne  = new BSimpleEtatViewer(model);
+	
+
+//			JInternalFrame fenetreInterne = new BListeClasses(xContext);
 			bureau.add(fenetreInterne);
 			fenetreInterne.setVisible(true);
 			fenetreInterne.toFront();
@@ -223,7 +232,7 @@ al = (event -> {
 			fenetreInterne.toFront();
 			fenetreInterne.requestFocus();
 		};
-		ajouterMenuItem(NOM, "CrÃ©er un journal", al);
+		ajouterMenuItem(NOM, "Créer un journal", al);
 
 		al = event -> {
 			try {
@@ -244,7 +253,11 @@ al = (event -> {
 		ajouterMenuItem(NOM, "Modifier un journal", al);
 
 		al = vent -> {
-			JInternalFrame fenetreInterne = new BListeJournaux(xContext);
+EtatModel model = new EtatListeJournaux(xContext);
+			JInternalFrame fenetreInterne  = new BSimpleEtatViewer(model);
+			
+
+//			JInternalFrame fenetreInterne = new BListeJournaux(xContext);
 			bureau.add(fenetreInterne);
 			fenetreInterne.setVisible(true);
 
@@ -268,15 +281,16 @@ al = (event -> {
 	public void ajouterMenuCompte() {
 		final String NOM = "Compte";
 		ActionListener al;
-
+		
 		al = event -> {
 			JInternalFrame fenetreInterne = new BFormulaireCompte(xContext);
 			bureau.add(fenetreInterne);
+			
 			fenetreInterne.setVisible(true);
-
 			fenetreInterne.toFront();
 			fenetreInterne.requestFocus();
 		};
+		
 		ajouterMenuItem(NOM, "Crer un compte", al);
 
 		al = event -> {
@@ -284,8 +298,8 @@ al = (event -> {
 				String numero = JOptionPane.showInputDialog(bureau, "Veuillez entrer le numero du compte.", "");
 
 				Compte compte = xContext.getCompte(numero);
-				// Todo gÃ©rer les mauvaises entrÃ©es ou remplacer par une liste
-				// dÃ©roulante/combobox
+				// Todo gérer les mauvaises entrées ou remplacer par une liste
+				// déroulante/combobox
 
 				JInternalFrame fenetreInterne;
 				fenetreInterne = new BFormulaireCompte(xContext, compte);
@@ -298,47 +312,39 @@ al = (event -> {
 			}
 		};
 		ajouterMenuItem(NOM, "Modifier un compte", al);
-/*
+		
 		al = event -> {
-			//JInternalFrame fenetreInterne = new IfPlanComptable(xContext);
+EtatModel etat = new EtatPlanComptable(xContext);
+			JInternalFrame fenetreInterne  = new BSimpleEtatViewer(etat);
+
 			bureau.add(fenetreInterne);
 			fenetreInterne.setVisible(true);
-
 			fenetreInterne.toFront();
 			fenetreInterne.requestFocus();
-		};*/
+		};
+		
 		ajouterMenuItem(NOM, "Afficher le plan comptable", al);
-
-		al = event -> {
-			JInternalFrame fenetreInterne = new IfArbreDesComptes(xContext);
-			bureau.add(fenetreInterne);
-			fenetreInterne.setVisible(true);
-
-			fenetreInterne.toFront();
-			fenetreInterne.requestFocus();
-
-		};
-		ajouterMenuItem(NOM, "Afficher l'arbre des comptes", al);
-
+		
+//		ajouterMenuItem(NOM, "Afficher l'arbre des comptes", al);
 		/*al = event -> {
-			JInternalFrame fenetreInterne = new IfConsultationCompte(xContext);
-			bureau.add(fenetreInterne);
-			fenetreInterne.setVisible(true);
+//			JInternalFrame fenetreInterne = new IfConsultationCompte(xContext);
+//			bureau.add(fenetreInterne);
+//			fenetreInterne.setVisible(true);
 
-			fenetreInterne.toFront();
-			fenetreInterne.requestFocus();
-		};*/
-		ajouterMenuItem(NOM, "Consulter un compte", al);
-
-		al = event -> {
+//			fenetreInterne.toFront();
+//			fenetreInterne.requestFocus();
+//		};*/
+		
+//		ajouterMenuItem(NOM, "Consulter un compte", al);
+//		al = event -> {
 //				Todo faire quelque chose
-		};
-		ajouterMenuItem(NOM, "GÃ©nÃ©rer les soldes", al);
-
-		al = event -> {
+//		};
+		
+//		ajouterMenuItem(NOM, "Générer les soldes", al);
+//		al = event -> {
 			// dodo Ã  faire
-		};
-		ajouterMenuItem(NOM, "RÃ©initialiser les soldes", al);
+//		};
+//		ajouterMenuItem(NOM, "Réinitialiser les soldes", al);
 	}
 
 	public void ajouterMenuEcriture() {
@@ -347,7 +353,7 @@ al = (event -> {
 
 		al = event -> {
 			try {
-				String saisie = JOptionPane.showInputDialog(bureau, "Veuillez entrer le numÃ©ro d'Ã©criture.", "");
+				String saisie = JOptionPane.showInputDialog(bureau, "Veuillez entrer le numéro d'écriture.", "");
 
 				Ecriture ecriture = null;
 				int numeroEcriture = Integer.parseInt(saisie);
@@ -369,7 +375,7 @@ al = (event -> {
 //Todo faire quelque chose
 			}
 		};
-		ajouterMenuItem(NOM, "Afficher Ã©criture", al);
+		ajouterMenuItem(NOM, "Afficher écriture", al);
 
 		al = event -> {
 			JInternalFrame fenetreInterne = new BFormulaireEcriture(xContext);
@@ -380,7 +386,7 @@ al = (event -> {
 			fenetreInterne.requestFocus();
 
 		};
-		ajouterMenuItem(NOM, "Saie Ã©criture", al);
+		ajouterMenuItem(NOM, "Saisie écriture", al);
 
 		al = event -> {
 
@@ -392,6 +398,27 @@ al = (event -> {
 			fenetreInterne.requestFocus();
 		};
 		ajouterMenuItem(NOM, "Valider brouillard", al);
+	}
+
+	public void ajouterMenuEtat() {
+		final String NOM = "Etats";
+		ActionListener al;
+
+		al = event -> {
+			EtatModel model = new EtatListeJournaux(xContext);
+			
+			JInternalFrame fenetreInterne  = new BSimpleEtatViewer(model);
+			
+					bureau.add(fenetreInterne);
+			fenetreInterne.setVisible(true);
+
+			fenetreInterne.toFront();
+			fenetreInterne.requestFocus();
+
+		};
+		
+		ajouterMenuItem(NOM, "Etat", al);
+
 	}
 
 	public void ajouterMenuTraitement() {
@@ -418,7 +445,7 @@ al = (event -> {
 			fenetreInterne.requestFocus();
 
 		};
-		ajouterMenuItem(NOM, "DÃ©lettrage", al);
+		ajouterMenuItem(NOM, "Délettrage", al);
 	}
 
 	public void ajouterMenuImporter() {
@@ -448,7 +475,7 @@ al = (event -> {
 				}
 			}
 		};
-		ajouterMenuItem(NOM, "RÃ©duire toutes les fenÃªtres", al);
+		ajouterMenuItem(NOM, "Réduire toutes les fenÃªtres", al);
 
 		al = event -> {
 			JInternalFrame[] frames = bureau.getAllFrames();

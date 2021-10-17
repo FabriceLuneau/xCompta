@@ -28,7 +28,7 @@ public class BFormulaireJournal extends JInternalFrame {
 	private JTextField fieldCode = new JTextField(10);
 	private JTextField fieldLibelle = new JTextField(25);
 
-	private JButton buttonSauver = new JButton("CrÃ©er");
+	private JButton buttonSauver = new JButton("Créer");
 	private JButton buttonAnnuler = new JButton("Annuler");
 	private JButton buttonSupprimer = new JButton("Supprimer");
 
@@ -39,10 +39,11 @@ public class BFormulaireJournal extends JInternalFrame {
 
 	public BFormulaireJournal(XContextInterface xContext) {
 		this.xContext = xContext;
+		this.journal = new Journal();
 
 		init();
 
-		buttonSauver.setText("CrÃ©er");
+		buttonSauver.setText("Créer");
 		buttonSupprimer.setEnabled(false);
 		fieldCode.setEditable(true);
 
@@ -100,9 +101,7 @@ public class BFormulaireJournal extends JInternalFrame {
 		panel1.add(fieldCode);
 		label.setLabelFor(fieldCode);
 
-		label =
-
-				new JLabel("Libellï¿½ : ");
+		label =new JLabel("Libellé : ");
 		panel2.add(label);
 		panel2.add(fieldLibelle);
 		label.setLabelFor(fieldLibelle);
@@ -129,14 +128,12 @@ public class BFormulaireJournal extends JInternalFrame {
 		}
 
 		try {
-			// Todo en attendand de modifier l'objet directement Ã  la modification des
-			// champs
 			journal.setCode(fieldCode.getText());
 			journal.setLibelle(fieldLibelle.getText());
 
 			xContext.sauverJournal(journal);
 
-			JOptionPane.showMessageDialog(getParent(), journal + " sauvÃ©");
+			JOptionPane.showMessageDialog(getParent(), journal + " sauvé");
 
 			dispose();
 //				((BBureau)getParent()).afficherJournaux();
@@ -153,7 +150,7 @@ public class BFormulaireJournal extends JInternalFrame {
 			journal.setLibelle(fieldLibelle.getText());
 			xContext.mettreAJourJournal(journal);
 
-			JOptionPane.showMessageDialog(getParent(), journal + " modifiÃ©");
+			JOptionPane.showMessageDialog(getParent(), journal + " modifié");
 			dispose();
 		} catch (XComptaObjetIntrouvableException e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lors de la sauvegarde de " + journal);
@@ -165,7 +162,7 @@ public class BFormulaireJournal extends JInternalFrame {
 			journal = xContext.getJournal(fieldCode.getText());
 			xContext.supprimerJournal(journal);
 
-			JOptionPane.showMessageDialog(getParent(), journal + "supprimÃ©");
+			JOptionPane.showMessageDialog(getParent(), journal + "supprimé");
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(getParent(), "Erreur lores de la suppression de " + journal);
 		}

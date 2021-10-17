@@ -117,7 +117,7 @@ public class IfArbreDesComptes2 extends JInternalFrame {
 			chaineNoeud = Compte.formatNumero(compte.getNumero(),
 					preferences.nbDigitCompte) + " " + compte.getLibelle();
 
-			switch (compte.getClasse()) {
+			switch (compte.getNumeroClasse()) {
 			case 1:
 				noeudClasse1.insert(new DefaultMutableTreeNode(chaineNoeud),
 						indexNoeudClasse1++);
